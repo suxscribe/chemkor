@@ -75,15 +75,15 @@
 					<li class="">
 						<a href="index.html#products">Каталог</a>
 						<ul class="menu-modal-products-nav">
-							<li class=""><a href="#">ARCTIC SCRUB</a></li>
-							<li class=""><a href="#">ARCTIC BALM</a></li>
-							<li class=""><a href="#">ARCTIC GEL</a></li>
-							<li class=""><a href="#">ARCTIC MIST</a></li>
+							<li class=""><a href="#">Подраздел</a></li>
+							<li class=""><a href="#">Подраздел</a></li>
+							<li class=""><a href="#">Подраздел</a></li>
+							
 						</ul>
 					</li>
-					<li><a data-menuanchor="info" href="index.html#info">Ценности</a></li>
-					<li><a data-menuanchor="delivery" href="index.html#delivery">Доставка</a></li>
-					<li><a data-menuanchor="contacts" href="index.html#contacts">Контакты</a></li>
+					<li><a href="index.html#info">Проекты</a></li>
+					<li><a href="index.html#delivery">Документация</a></li>
+					<li><a href="index.html#contacts">Контакты</a></li>
 				</ul>
 			</div>
 
