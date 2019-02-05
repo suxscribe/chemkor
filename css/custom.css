@@ -430,6 +430,7 @@ h4, .uk-h4 {
 
 
 
+
 .header-top-phone {
 	flex: 0 0 auto;
 	display: flex;
@@ -1113,6 +1114,119 @@ h4, .uk-h4 {
 .panel_certificate {
 	padding: 100px 60px 60px 60px;
 }
+.certificate-item {
+	position: relative;
+	padding: 92px 36px;
+	background: #fff;
+}
+.certificate-item::before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: var(--orange);
+	margin-bottom: 8px;
+}
+.certificate-item-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 90px;
+}
+.certificate-item-desc {
+	font-family: "Proxima Nova";
+	font-size: 15px;
+
+}
+
+
+.certificate-list {
+	
+	flex-wrap: nowrap;
+	margin-right: -25px;
+}
+
+.certificate-list > div {
+	width: 310px;
+}
+
+.certificate-item:hover a.uk-position-cover {
+	opacity: 1;
+}
+.certificate-item a.uk-position-cover {
+	opacity: 0;
+	background: rgb(242,101,34,0.8);
+	text-decoration: none;
+	transition: opacity 0.2s ease;
+}
+.certificate-item a.uk-position-cover::before {
+	content: '\e905';
+	font-family: icomoon;
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: #fff;
+	border-radius: 24px;
+	text-decoration: none;
+	color: var(--orange);
+	text-align: center;
+	line-height: 48px;
+	left: calc(50% - 24px);
+	top: calc(50% - 24px);
+	position: absolute;
+}
+.certificate-item-overlay {
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	padding: 40px;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+.certificate-item-overlay img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.certificate-item:hover .certificate-item-overlay {
+	opacity: 1;
+}
+
+.block_certificate {
+	margin-top: -40px;
+}
+
+.block_certificate-img {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 3px 16px rgba(0,0,0,0.1);
+	margin-bottom: -60px;
+}
+
+
+.list_dashed {
+	list-style-type: none;
+	padding: 0; 
+}
+.list_dashed > li {
+	position: relative;
+	padding-left: 50px;
+	margin-bottom: 30px;
+}
+.list_dashed > li:before {
+	content:'';
+	display: block;
+	position: absolute;
+	left: 0;
+	top:16px;
+	width: 30px;
+	height: 2px;
+	background-color: var(--orange);
+}
+
 
 
 
@@ -1505,7 +1619,16 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		display: none;
 	}
 
-
+	.certificate-list {
+		overflow-x: scroll;
+	}
+ .block_title-padding {
+ 	padding-bottom: 0;
+ }
+	.block-fullwidth-heading {
+		font-size: 40px;
+		line-height: 45px;
+	}
 }
 
 
@@ -1595,5 +1718,12 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 	.company-history-content {
 		margin-top: -40px;
+	}
+	.button_small-width-1 {
+		width: 100%;
+	}
+
+	.panel_certificate {
+		padding: 100px 20px 40px 20px;
 	}
 }

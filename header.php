@@ -29,6 +29,7 @@
 	<script src="js/components/slideshow.js"></script>
 	<script src="js/components/slideset.js"></script>
 	<script src="js/components/sticky.js"></script>
+	<script src="js/components/lightbox.js"></script>
 	<script src="js/jquery.inputmask.js"></script>
 	<script src="js/custom.js"></script>
 </head>

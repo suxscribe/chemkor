@@ -32,26 +32,57 @@
 
 	<div class="uk-container container-965 uk-margin-large-bottom">
 
-		< certificates here >
+		<div class="certificate-list uk-grid uk-margin-large-bottom">
+			<div>
+				<div class="certificate-item">
+					<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
+					<div class="certificate-item-desc">Общие требования к компетентности испытательных и калибровочных лабораторий</div>
+					<div class="certificate-item-overlay">
+						<img src="images/certificate-teaser.jpg" alt="">
+					</div>
+					<a href="images/certificate-full.jpg" class="uk-position-cover" data-uk-lightbox></a>
+				</div>
+			</div>
+			<div>
+				<div class="certificate-item">
+					<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
+					<div class="certificate-item-desc">Общие требования к компетентности испытательных и калибровочных лабораторий</div>
+					<div class="certificate-item-overlay">
+						<img src="images/certificate-teaser.jpg" alt="">
+					</div>
+					<a href="images/certificate-full.jpg" class="uk-position-cover" data-uk-lightbox></a>
+				</div>
+			</div>
+			<div>
+				<div class="certificate-item">
+					<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
+					<div class="certificate-item-desc">Общие требования к компетентности испытательных и калибровочных лабораторий</div>
+					<div class="certificate-item-overlay">
+						<img src="images/certificate-teaser.jpg" alt="">
+					</div>
+					<a href="images/certificate-full.jpg" class="uk-position-cover" data-uk-lightbox></a>
+				</div>
+			</div>
+		</div>
 
 		<div class="uk-text-center">
-			<a href="" class="uk-button button_chevron">Все сертификаты</a>
+			<a href="" class="uk-button button_chevron button_small-width-1">Все сертификаты</a>
 		</div>
 		<div class="vertical-line vertical-line_short"></div>
 	</div>
 
 
-	<div class="uk-container container-965 uk-margin-large-bottom">
+	<div class="block_certificate uk-container container-965 uk-margin-large-bottom">
 
-		<div class="block_certificate">
-			<img src="images/certificate.jpg" alt="">
+		<div class="uk-text-center">
+			<img class="block_certificate-img" src="images/certificate.jpg" alt="">
 		</div>
 
 		<div class="panel panel_white panel_certificate">
 			<p class="uk-text-center uk-margin-large-bottom">
 				Аттестат удостоверяет, что испытательный центр АО «ХЕМКОР» соответствует требованиям ГОСТ ИСО/МЭК 17025-2009. Лаборатория аккредитована на техническую компетентность для проведения работ по испытаниям в соответствии с областью аккредитации.
 			</p>
-			<div class="uk-h3">
+			<div class="uk-h3 uk-text-center uk-margin-large-bottom">
 				В область аккредитации лаборатории входят
 			</div>
 			<ul class="list_dashed uk-column-large-1-2">
