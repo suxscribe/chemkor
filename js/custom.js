@@ -122,6 +122,22 @@ function init() {
 		$(this).prev('input').val('');
 		$(this).addClass('uk-hidden');
 		e.preventDefault();
-	})
+	});
+
+	var slider = $('#slider');
+	var slider_current = $(slider).find('.slider-nav-current');
+
+	$(slider).on('focusitem.uk.slider', function(event, index, item) {
+		$(slider).find('.slider-nav-overall').html($(slider).find('li[data-slider-slide]').length);
+		// event.preventDefault();
+		$(slider_current).html(index+1);
+		//console.log(index);
+		/* Act on the event */
+	});
+	
+
+
+
+
 
 });

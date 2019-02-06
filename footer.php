@@ -17,8 +17,8 @@
 		 				<div class="footer-info-phone"><a href="tel:+74953350948">+7 495 335-09-48</a></div>
 		 			</div>
 		 		</div>
-		 		<div class="footer-menu uk-flex-item-1 uk-column-large-1-3 uk-column-medium-1-2 uk-hidden-small">
-		 			<div class="footer-menu-1 uk-flex-item-none">
+		 		<div class="footer-menu uk-flex-item-1 uk-hidden-small">
+		 			<div class="footer-menu-1">
 		 				<div class="uk-h4">КОМПАНИЯ</div>
 		 				<ul class="uk-nav">
 		 					<li><a href="">О компании</a></li>
@@ -29,7 +29,7 @@
 		 				</ul>
 
 		 			</div>
-		 			<div class="footer-menu-2 uk-flex-item-1">
+		 			<div class="footer-menu-2">
 		 				<div class="uk-h4">КАТАЛОГ</div>
 		 				<ul class="uk-nav">
 		 					<li><a href="">Внутренняя канализация</a></li>
@@ -40,13 +40,15 @@
 		 					<li><a href="">Готовые решения</a></li>
 		 				</ul>
 		 			</div>
-		 			<div class="footer-menu-3 uk-flex-item-1">
+		 			<div class="footer-menu-3">
 		 				<div class="uk-h4">ДОКУМЕНТАЦИЯ</div>
 		 				<ul class="uk-nav">
 		 					<li><a href="">Сертификаты</a></li>
 		 					<li><a href="">Нормативные документы</a></li>
 		 					<li><a href="">Техническая информация</a></li>
 		 				</ul>
+		 			</div>
+		 			<div class="footer-menu-4">
 		 				<div class="uk-h4">ПРЕСС-ЦЕНТР</div>
 		 				<ul class="uk-nav">
 		 					<li><a href="">Новости</a></li>
@@ -54,6 +56,7 @@
 		 					<li><a href="">Статьи</a></li>
 
 		 				</ul>
+
 		 			</div>
 		 		</div>
 		 	</div>

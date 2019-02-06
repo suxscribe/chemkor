@@ -32,8 +32,29 @@
 </div>
 
 
-<div class="block-fullwidth block-fullwidth_slider">
-	slider here
+<div class="block-fullwidth block-fullwidth_slider uk-margin-large-bottom">
+	<div id="slider" class="slider slider_production uk-slidenav-position" data-uk-slider="{center:true}">
+			<div class="uk-container container-1160 container_slider">
+				<div class="slider-nav">
+					<span class="slider-nav-current"></span> / <span class="slider-nav-overall"></span>
+				</div>
+			</div>
+	    <div class="uk-slider-container">
+	        <ul class="uk-slider ">
+	            <li><img src="images/production-slider-01.jpg" alt=""></li>
+	            <li><img src="images/production-slider-02.jpg" alt=""></li>
+	            <li><img src="images/production-slider-03.jpg" alt=""></li>
+	            <li><img src="images/production-slider-01.jpg" alt=""></li>
+	            <li><img src="images/production-slider-02.jpg" alt=""></li>
+	            <li><img src="images/production-slider-03.jpg" alt=""></li>
+	            
+	        </ul>
+	    </div>
+
+	    <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slider-item="previous"></a>
+	    <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next"></a>
+
+	</div>
 </div>
 	
 
