@@ -1,0 +1,374 @@
+body{
+	background-color: #F5F5F5;
+}
+.button_chevron__warning::after{
+	color: #F26522;
+}
+.button_chevron__mob{
+	position: relative;
+}
+.button_chevron__mob::after{
+	position: absolute;
+	right: 10px;
+}
+.block-fullwidth-bg{
+	background-color: #B5B5B5;
+}
+.block-fullwidth-bg img{
+	opacity: 0;
+}
+.laboratoriya .block-fullwidth-content{
+	height: 216px;
+}
+.h1-titke{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 55px;
+	margin-top: 30px;
+	margin-bottom: 23px;
+}
+.header-list{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 40px;
+}
+.header-item{
+	width: 167px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+.header-item a{
+	display: flex;
+	align-items: center;
+}
+.header-item .header-item-icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 25%;
+	min-width: 40px;
+	max-width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	margin-right: 10px;
+	transition: 200ms linear background-color;
+}
+.header-item:hover .header-item-icon{
+	background-color: #fff;
+}
+.header-item:hover svg text,
+.header-item:hover svg path{
+	fill: #F26522;
+}
+.header-item .header-item-text{
+	flex-basis: 75%;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+.vertical-line__header{
+	height: 80px;
+	margin-top: -30px;
+}
+.vertical-line__katalog-top{
+	height: 88px;
+	bottom: -25px;
+}
+.vertical-line__katalog-bottom{
+	height: 70px;
+	top: -65px;
+}
+.block-header-preview{
+	max-width: 965px;
+}
+.panel_introtext{
+	padding: 40px 20px 60px 20px;
+}
+.uk-row{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.uk-block-product{
+	flex-wrap: wrap;
+	/*margin-bottom: 57px;*/
+}
+.uk-card-product{
+	position: relative;
+	width: 100%;
+	min-height: 304px;
+	margin: 8px 0;
+	padding-top: 38px;
+	/*outline: 1px solid red; Видалити на продакшені */
+	background-color: #fff;
+}
+.uk-card-product p{
+	font-size: 18px;
+	color: #3C3C3D;
+	margin: 0 40px;
+	line-height: 28px;
+}
+.uk-card-product a.uk-position-cover{
+	opacity: 0;
+	background: #f26522cc;
+	text-decoration: none;
+	transition: opacity 0.2s ease;
+}
+.uk-card-product a.uk-position-cover::before{
+	content: '\e905';
+	font-family: icomoon;
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: #fff;
+	border-radius: 24px;
+	text-decoration: none;
+	color: var(--orange);
+	text-align: center;
+	line-height: 48px;
+	left: calc(50% - 24px);
+	top: calc(50% - 24px);
+	position: absolute;
+}
+.uk-card-product:hover a.uk-position-cover {
+	opacity: 1;
+}
+.card-site-content{
+	flex-wrap: wrap;
+}
+.card-site-item{
+	width: 100%;
+	padding-top: 40px;
+	margin-bottom: 25px;
+	background-color: #fff;
+}
+.card-site-line{
+	width: 60px;
+	height: 2px;
+	margin-left: 30px;
+	margin-bottom: 26px;
+	background-color: #F26522;
+}
+.card-site-title{
+	margin-left: 30px;
+	margin-bottom: 35px;
+}
+.card-site-title a{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #3C3C3D;
+}
+.card-site-image img{
+	width: 100%;
+}
+.card-site-title__in-tag{
+	margin-bottom: 20px;
+}
+.card-site-tag{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.uk-katalog-title{
+	max-width: 240px;
+	font-size: 20px;
+	color: #58595B;
+}
+.button-product{
+	width: 336px;
+	height: 62px;
+}
+.resheniya-top-txt{
+	font-size: 18px;
+	color: #3C3C3D;
+}
+.resheniya-botton-title{
+	font-size: 20px;
+	color: #58595B;
+}
+.resheniya-botton-content{
+	font-size: 15px;
+}
+.contacts-panel{
+	height: 278px;
+	margin: 0 -25px;
+}
+.uk-tab__contacts li.uk-active > a{
+	position: relative;
+	background-color: transparent;
+}
+.uk-tab__contacts li.uk-active > a::before{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 4px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #000;
+}
+.uk-tab-grid::before{
+	display: none;
+}
+.uk-tab__contacts  > li > a{
+	color: #fff;
+	border: 0;
+}
+.uk-tab__contacts > li.uk-open > a,
+.uk-tab__contacts > li > a:focus,
+.uk-tab__contacts > li > a:hover{
+	color: #3C3C3D;
+	background-color: transparent;
+}
+.contacts-block{
+	background-color: #fff;
+}
+
+/* ▼ ADAPTIVE ▼ */
+@media (min-width: 768px){
+	.block-fullwidth{
+		padding-bottom: 104px;
+	}
+	.block-fullwidth-bg img{
+		opacity: 1;
+		filter: grayscale(100%);
+	}
+	.h1-titke{
+		font-size: 70px;
+		line-height: 70px;
+		margin-top: 60px;
+		margin-bottom: 58px;
+	}
+	.block-header-preview{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.panel_introtext{
+		margin-top: -104px;
+		padding: 55px 42px 85px 42px;
+	}
+	.panel_introtext p{
+		font-size: 20px;
+	}
+	.vertical-line__header{
+		height: 128px;
+		margin-top: -64px;
+	}
+	.uk-block-product{
+		margin-top: 32px;
+		/*margin-bottom: 71px;*/
+	}
+	.uk-card-product{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.uk-card-product:nth-child(odd){
+		margin-right: 15px;
+	}
+	.uk-card-product:last-child{
+		margin-right: 0;
+		flex-grow: 1;
+	}
+	.card-site-content__kanalizatsiya{
+		justify-content: center;
+	}
+	.card-site-item__kanalizatsiya{
+		width: 332px;
+	}
+	.tekh-resheniya .card-site-content{
+		height: auto;
+		overflow-y: visible;
+		justify-content: center;
+	}
+	.card-site-item:not(.uk-hidden-medium){
+		margin-right: 15px;
+	}
+	.card-site-item:nth-child(2){
+		margin-right: 0;
+	}
+	.resheniya-562{
+		max-width: 562px;
+	}
+	.resheniya-top-txt{
+		font-size: 20px;
+	}
+	.resheniya-botton-title{
+		font-size: 22px;
+	}
+	.resheniya-botton-content{
+		font-size: 17px;
+	}
+	.contacts-panel{
+		height: 227px;
+	}
+	.uk-tab__contacts li.uk-active > a::before{
+		display: none;
+	}
+	.uk-tab-grid::before{
+		display: block;
+		border-width: 4px;
+		border-color: rgba(255,255,255, 0.5);
+	}
+	.uk-tab__contacts > li.uk-active > a{
+		border-bottom: 4px solid black;
+		border-color: black;
+	}
+}/* END min-width: 768px */
+
+@media (min-width: 965px){
+	.block-header-preview{
+		max-width: 1045px;
+	}
+	.h1-titke{
+		margin-top: 117px;
+	}
+	.header-item{
+		width: 144px;
+		margin-bottom: 0;
+	}
+	.panel_introtext{
+		padding: 68px 95px 85px 95px;
+	}
+	.panel_introtext p{
+		line-height: 32px;
+	}
+	.uk-block-product{
+		margin-top: 58px;
+		/*margin-bottom: 96px;*/
+	}
+	.uk-card-product{
+		/*width: 572px;*/
+		height: 271px;
+	}
+	.uk-card-product p{
+		flex-basis: 40%;
+		order: 1;
+		margin-left: 25px;
+		margin-right: 0;
+	}
+	.uk-card-product img{
+		flex-basis: 50%;
+		object-fit: contain;
+	}
+	.uk-card-product:last-child{
+		margin-right: 15px;
+		flex-grow: 0;
+	}
+	.card-site-content{
+		justify-content: center;
+	}
+	.card-site-item:nth-child(2){
+		margin-right: 15px;
+	}
+	.card-site-item__309{
+		width: 309px;
+	}
+	.resheniya-562{
+		max-width: 780px;
+	}
+
+}/* END min-width: 965px */
