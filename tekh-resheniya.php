@@ -2,7 +2,7 @@
 
     <main>
 
-        <div class="uk-container container-965 uk-margin-large-bottom">
+        <div class="uk-container container-965">
             <h1 class="block-fullwidth-heading h1-titke">Технические решения</h1>
             <p class="resheniya-top-txt uk-text-center">Наша компания ориентирована на выпуск качественной продукции. Благодаря высокому
                 качеству продукции и
@@ -17,45 +17,51 @@
 
             <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-grid-width-large-1-3 card-site-content" data-uk-grid-margin>
                 <div>
-                    <div class="card-site-item card-site-item__309">
+                    <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Ливневая канализация</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
                 <div>
-                    <div class="card-site-item card-site-item__309">
+                    <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Навозоудаление</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
                 <div>
-                    <div class="card-site-item card-site-item__309">
+                    <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Орошение</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
                 <div>
-                    <div class="card-site-item card-site-item__309">
+                    <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Внутренняя канализация</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
                 <div>
-                    <div class="card-site-item card-site-item__309">
+                    <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Обсадные трубы</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
                 <div>
-                    <div class="card-site-item card-site-item__309">
+                    <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Напорный водопровод</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
             </div>

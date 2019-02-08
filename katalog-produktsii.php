@@ -3,7 +3,7 @@
     <main>
 
         <div class="block-fullwidth ">
-            <div class="block-fullwidth-bg">
+            <div class="block-fullwidth-bg fullwidth-bg-cover">
                 <img src="images/background-catalog.jpg" alt="">
             </div>
 
@@ -106,8 +106,11 @@
         <div class="uk-container container-780 uk-margin-large-bottom">
             <div class="panel uk-text-center">
                 <div class="panel_company-50">50+</div>
-                <div class="uk-container-center uk-katalog-title uk-margin-bottom">Срок эксплуатации более 50 лет</div>
-                <p class="uk-margin-bottom">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок
+                <div class="uk-h3 uk-container-center uk-katalog-title uk-margin-bottom">Срок эксплуатации более 50
+                    лет
+                </div>
+                <p class="uk-margin-bottom uk-katalog-txt">Исследования показывают, что благодаря лучшим гидравлическим
+                    свойствам, срок
                     эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </p>
             </div>
         </div><!-- .uk-container -->
@@ -115,48 +118,52 @@
         <div class="block-product-info uk-container container-1160 uk-margin-large-bottom">
 
 
-            <div class="panel panel_white panel_certificate">
+            <div class="panel panel_white panel__katalog">
                 <div class="vertical-line vertical-line__katalog-bottom"></div>
                 <div class="uk-column-large-1-2">
-                    <div>
-                        <p>Экологическая безопасность</p>
-                        <p>Не оказывает воздействия на человеческий организм и окружающую среду, не выделяют токсичных
+                    <div class="katalog-block">
+                        <div class="uk-h3 uk-katalog-title">Экологическая безопасность</div>
+                        <p class="uk-katalog-txt">Не оказывает воздействия на человеческий организм и окружающую среду,
+                            не выделяют токсичных
                             веществ, отсутствует потенциал роста микроорганизмов</p>
                     </div>
 
-                    <div>
-                        <p>Экологическая безопасность</p>
-                        <p>Не оказывает воздействия на человеческий организм и окружающую среду, не выделяют токсичных
-                            веществ, отсутствует потенциал роста микроорганизмов</p>
+                    <div class="katalog-block">
+                        <div class="uk-h3 uk-katalog-title">Максимальное количество воды с наименьшим</div>
+                        <p class="uk-katalog-txt">Для транспортирования воды по трубам из ПВХ требуется меньше
+                            электроэнергии, чем при использовании труб из других материалов</p>
                     </div>
 
-                    <div>
-                        <p>Экологическая безопасность</p>
-                        <p>Не оказывает воздействия на человеческий организм и окружающую среду, не выделяют токсичных
-                            веществ, отсутствует потенциал роста микроорганизмов</p>
+                    <div class="katalog-block">
+                        <div class="uk-h3 uk-katalog-title">Экономическая эффективность</div>
+                        <p class="uk-katalog-txt">Легкий монтаж без использования спец. оборудования позволяет снизить
+                            срок окупаемости объекта!</p>
                     </div>
 
-                    <div>
-                        <p>Экологическая безопасность</p>
-                        <p>Не оказывает воздействия на человеческий организм и окружающую среду, не выделяют токсичных
-                            веществ, отсутствует потенциал роста микроорганизмов</p>
+                    <div class="katalog-block">
+                        <div class="uk-h3 uk-katalog-title">Стойкость к абразивному износу</div>
+                        <p class="uk-katalog-txt">Даже при высокой плотности абразивных частиц и эксплуатации в течение
+                            длительного времени в интенсивном режиме не наблюдается эрозии и истирания, уменьшающего
+                            толщину труб</p>
                     </div>
 
-                    <div>
-                        <p>Экологическая безопасность</p>
-                        <p>Не оказывает воздействия на человеческий организм и окружающую среду, не выделяют токсичных
-                            веществ, отсутствует потенциал роста микроорганизмов</p>
+                    <div class="katalog-block">
+                        <div class="uk-h3 uk-katalog-title">Коррозийная стойкость и химическая инертность к
+                            транспортируемым средам
+                        </div>
+                        <p class="uk-katalog-txt">Не подвергаются коррозии, не реагируют на кислород и хлор в питьевой
+                            воде, а также на агрессивные компоненты сточных вод</p>
                     </div>
 
-                    <div>
-                        <p>Экологическая безопасность</p>
-                        <p>Не оказывает воздействия на человеческий организм и окружающую среду, не выделяют токсичных
-                            веществ, отсутствует потенциал роста микроорганизмов</p>
+                    <div class="katalog-block">
+                        <div class="uk-h3 uk-katalog-title">Стойкость к УФ-излучению</div>
+                        <p class="uk-katalog-txt">Среди всех пластиков, используемых для изготовления труб, ПВХ обладает
+                            максимальной устойчивостью к воздействию солнечного света.</p>
                     </div>
 
                 </div>
                 <hr>
-                <a href="" class="uk-button uk-container-center uk-margin-top button-product">ЗАЯВКА НА ПРОДУКЦИЮ</a>
+                <a href="" class="uk-button uk-button__my">ЗАЯВКА НА ПРОДУКЦИЮ</a>
             </div>
         </div><!-- .block-product-info -->
 

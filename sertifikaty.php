@@ -10,7 +10,7 @@
 
 		<div class="uk-container container-965 uk-margin-large-bottom">
 
-			<div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-grid-width-large-1-3 uk-margin-large-bottom" data-uk-grid-margin>
+			<div class="uk-grid uk-grid-width uk-grid-small-1-1 uk-grid-width-medium-1-2 uk-grid-width-large-1-3 uk-margin-large-bottom" data-uk-grid-margin>
 				<div>
 					<div class="certificate-item">
 						<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
@@ -79,7 +79,7 @@
 			</div>
 
 			<div class="uk-text-center">
-				<a href="" class="uk-button button_small-width-1">СКАЧАТЬ АРХИВОМ</a>
+				<a href="" class="uk-button uk-button__my">СКАЧАТЬ АРХИВОМ</a>
 			</div>
 		</div>
 
