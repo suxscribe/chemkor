@@ -3,7 +3,7 @@
     <main>
 
         <div class="block-fullwidth ">
-            <div class="block-fullwidth-bg">
+            <div class="block-fullwidth-bg fullwidth-bg-cover">
                 <img src="images/bg-main.jpg" alt="">
             </div>
 
@@ -11,7 +11,7 @@
                 <h1 class="block-fullwidth-heading h1-titke">Наружная канализация</h1>
 
                 <div class="uk-container ">
-                    <ul class="header-list uk-column-1-1 uk-column-medium-1-3">
+                    <ul class="header-list header-list__kanalizatsiya uk-column-1-1 uk-column-medium-1-3">
                         <li class="header-item">
                             <a href="">
                                 <div class="header-item-icon">
@@ -67,13 +67,13 @@
         </div><!-- .block-fullwidth -->
 
 
-        <div class="uk-container block-header-preview uk-margin-bottom">
-            <div class="panel panel_orange panel_introtext uk-text-center">
+        <div class="uk-container block-header-preview uk-margin-bottom ">
+            <div class="panel panel_orange panel_introtext uk-text-center uk-position-z-index">
                 <p>Трубы из ПВХ предназначены для строительства трубопроводов безнапорной подземной наружной
                     канализации: хозяйственно-бытовой канализации, дренажа и водоотведения, ливневой канализации,
                     отведения промышленных стоков, к которым материал трубопровода является химически стойким.</p>
             </div>
-            <div class="vertical-line vertical-line__header"></div>
+            <div class="vertical-line vertical-line__header uk-position-z-index"></div>
         </div><!-- .uk-container -->
 
         <div class="uk-container container-1160 uk-margin-large-bottom">
@@ -83,8 +83,97 @@
                     <div class="uk-card-product">
                         <p>Труба ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-1.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-1" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+
+                    <div id="kanalizatsiya-item-1" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-2.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Отвод ПВХ <br> наружной канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.
+                                        Цвет отвода ПВХ: оранжевый
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.
+                                        Гарантийный срок хранения: 2 года.
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table">
+                                    <tr>
+                                        <td>1.1</td>
+                                        <td>1.2</td>
+                                        <td>1.3</td>
+                                        <td>1.4</td>
+                                        <td>1.5</td>
+                                        <td>1.6</td>
+                                        <td>1.7</td>
+                                        <td>1.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.1</td>
+                                        <td>2.2</td>
+                                        <td>2.3</td>
+                                        <td>2.4</td>
+                                        <td>2.5</td>
+                                        <td>2.6</td>
+                                        <td>2.7</td>
+                                        <td>2.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.1</td>
+                                        <td>3.2</td>
+                                        <td>3.3</td>
+                                        <td>3.4</td>
+                                        <td>3.5</td>
+                                        <td>3.6</td>
+                                        <td>3.7</td>
+                                        <td>3.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.1</td>
+                                        <td>4.2</td>
+                                        <td>4.3</td>
+                                        <td>4.4</td>
+                                        <td>4.5</td>
+                                        <td>4.6</td>
+                                        <td>4.7</td>
+                                        <td>4.8</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #news-post-id4 -->
                 </div>
 
                 <div>

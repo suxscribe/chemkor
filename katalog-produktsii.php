@@ -8,10 +8,10 @@
             </div>
 
             <div class="block-fullwidth-content uk-container">
-                <h1 class="block-fullwidth-heading h1-titke">Каталог продукции</h1>
+                <h1 class="block-fullwidth-heading h1-titke h1-title__katalog">Каталог продукции</h1>
 
                 <div class="uk-container ">
-                    <ul class="header-list uk-column-1-1 uk-column-medium-1-2">
+                    <ul class="header-list header-list__katalog uk-column-1-1 uk-column-medium-1-2">
                         <li class="header-item">
                             <a href="">
                                 <div class="header-item-icon">
@@ -47,7 +47,7 @@
             </div><!-- .block-fullwidth-content -->
         </div><!-- .block-fullwidth -->
 
-        <div class="uk-container container-1160 uk-margin-large-bottom">
+        <div class="uk-container container-1160 uk-margin-large-bottom katalog-container">
             <div class="vertical-line vertical-line__katalog-top"></div>
             <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin>
                 <div>
@@ -162,9 +162,10 @@
                     </div>
 
                 </div>
-                <hr>
-                <a href="" class="uk-button uk-button__my">ЗАЯВКА НА ПРОДУКЦИЮ</a>
+                <hr class="uk-hidden-small">
+                <a href="" class="uk-button uk-hidden-small uk-button__my">ЗАЯВКА НА ПРОДУКЦИЮ</a>
             </div>
+            <a href="" class="uk-button uk-visible-small uk-button__my uk-button__katalog">ЗАЯВКА НА ПРОДУКЦИЮ</a>
         </div><!-- .block-product-info -->
 
     </main>

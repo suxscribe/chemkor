@@ -8,23 +8,27 @@
                 воды.</p>
         </div>
 
-        <div class="uk-container container-1160 uk-margin-large-bottom">
+        <div class="uk-container container-1160 uk-margin-large-bottom uk-position-relative">
 
             <ul class="uk-tab uk-tab-grid uk-tab__obsadnyye" data-uk-switcher="{connect:'#obsadnyye'}">
                 <li class="uk-width-1-2 uk-active"><a href="">Бытовая скважина</a></li>
                 <li class="uk-width-1-2"><a href="">Техн. скважина</a></li>
             </ul>
 
-            <div id="obsadnyye" class="uk-switcher uk-margin-minus">
+            <div id="obsadnyye" class="uk-switcher uk-margin-minus ">
                 <div class="obsadnyye-block">
-                    <img src="images/obsadnyye-truby-pic-full.jpg" alt="">
-                    <div class="obsadnyye-add">
-                        <button class="uk-button" type="button" data-uk-toggle="{target:'#obsadnyye-info'}">+</button>
-                        <div id="obsadnyye-info" class="uk-hidden panel_white obsadnyye-add-content">
+                    <img src="images/obsadnyye-truby-pic-full.jpg" alt="obsadnyye-truby-pic-full">
+                    <div class="obsadnyye-add uk-hidden-medium">
+                        <button class="uk-button button-obsadnyye icon-plus " type="button" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
+                        <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content">
+                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
                             <img src="images/obsadnyye-truby-pic-info.jpg" alt="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aut.</p>
+                            <p>Описание конструкции
+                                Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
+                                позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
+                                с металлическими и полиэтиленовыми трубами.</p>
                         </div>
-                    </div>
+                    </div><!-- .obsadnyye-add -->
                 </div>
 
                 <div class="obsadnyye-block">
@@ -32,10 +36,15 @@
                 </div>
             </div>
 
-        </div>
+            <div class="uk-hidden-large obsadnyye-info-mob">Обсадные трубы с трапецеидальной резьбой используются в строительстве и обустройстве водозаборных
+                скважин при их бурении на воду. Комплектуются скважинными фильтрами и оголовками. Бурение скважин с
+                применением труб ПВХ позволяет избегать загрязнения подземных вод, а также увеличивает скорость
+                бурения по сравнению с металлическими и полиэтиленовыми трубами.
+            </div>
+        </div><!-- .uk-container -->
 
         <div class="uk-container container-1160 uk-margin-large-bottom padding-l-r-20">
-            <div class="block-title uk-h3">Конструкция</div>
+            <div class="uk-h3 obsadnyye-title">Конструкция</div>
 
             <div class="uk-grid uk-grid-width uk-grid-width-medium-1-2 uk-grid-width-large-1-3 design-block-1" data-uk-grid-margin>
                 <div>
@@ -86,7 +95,7 @@
         </div>
 
         <div class="uk-container container-1160 uk-margin-large-bottom">
-            <div class="block-title uk-h3">Комплект системы</div>
+            <div class="uk-h3 obsadnyye-title">Комплект системы</div>
             <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin>
                 <div>
                     <div class="uk-card-product uk-card-product__obsadnyye">
@@ -132,7 +141,7 @@
         </div><!-- .container-1160 -->
 
         <div class="card-site uk-container container-1160 uk-margin-large-bottom">
-            <div class="block-title uk-h3">
+            <div class="uk-h3 obsadnyye-title">
                 Реализованные проекты <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В
                     РАЗДЕЛ</a>
             </div>
@@ -165,8 +174,7 @@
             </div>
 
             <a href=""
-               class="uk-button button_chevron button_chevron__mob uk-margin-top uk-visible-small uk-width-1-1">В
-                РАЗДЕЛ</a>
+               class="uk-button button_chevron button_chevron__mob button_chevron__warning uk-margin-top uk-visible-small uk-width-1-1">В РАЗДЕЛ</a>
         </div><!-- .card-site -->
 
     </main>
