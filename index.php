@@ -255,7 +255,7 @@
 
 	<div class="block-news uk-container container-1160 uk-margin-large-bottom">
 		<div class="block-title uk-h3">
-			Свежие новости <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a>
+			Свежие новости <a href="katalog-produktsii.php" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a>
 		</div>
 		<div class="panel panel_news">
 			<div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin>

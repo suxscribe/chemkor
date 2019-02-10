@@ -221,6 +221,9 @@ h4, .uk-h4 {
 	.uk-grid-collapse {
 		margin-left: 0;
 	}
+	.uk-grid + .uk-grid, .uk-grid-margin, .uk-grid > * > .uk-panel + .uk-panel {
+		margin-top: var(--gutter);
+	}
 }
 .uk-grid {
 	margin-left: calc(var(--gutter) * (-1));
@@ -234,7 +237,9 @@ h4, .uk-h4 {
 .uk-grid-collapse > * {
 	padding-left: 0;
 }
-
+.uk-grid + .uk-grid, .uk-grid-margin, .uk-grid > * > .uk-panel + .uk-panel {
+	margin-top: var(--gutter);
+}
 .block-fullwidth {
 	position: relative;
 	overflow: hidden;
