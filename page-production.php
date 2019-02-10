@@ -32,7 +32,7 @@
 </div>
 
 
-<div class="block-fullwidth block-fullwidth_slider uk-margin-large-bottom">
+<div class="block-fullwidth_slider uk-margin-large-bottom">
 	<div id="slider" class="slider slider_production uk-slidenav-position" data-uk-slider="{center:true}">
 			<div class="uk-container container-1160 container_slider">
 				<div class="slider-nav">
@@ -55,8 +55,29 @@
 	    <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next"></a>
 
 	</div>
+
+	<div class="uk-container container-965 uk-margin-large-bottom block_infographic">
+		<div class="panel panel_white panel_production ">
+			<div class="uk-h3 uk-text-center uk-margin-large-bottom">Инфографика о производстве</div>
+			<div class="production_infographic uk-margin-large-bottom">
+				<ul class="list_dashed list_dashed-top uk-column-medium-1-2 uk-column-large-1-3">
+
+					<li>Трубы высокого качества с  длительным периодом эксплуатации 50 лет и более</li>
+					<li>Снижаете срок окупаемости объекта</li>
+					<li>Сокращаете время и стоимость монтажа</li>
+					<li>Сохраняете окружающую среду</li>
+					<li>Уменьшаете инвестиционные затраты</li>
+					<li>Поставляете чистую воду</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="vertical-line "></div>
+	</div>
 </div>
 	
+
+
 
 
 	
@@ -71,6 +92,40 @@
 	</div>
 </div>
 
+<div class="uk-container container-965 uk-margin-large-bottom block_production-pipes">
+	
+		<div class="production-pipes">
+			<div class="production-pipe-item">
+				<div class="pipe-item-image"><img src="images/production-pipe-01.png" alt=""></div>
+				<div class="pipe-item-panel">
+					<div class="pipe-item-name">Трубы для напорных систем водоснабжения</div>
+					<div class="pipe-item-desc">производятся по ГОСТ Р 51613-2000 и ТУ 2248-056-72311668-2007</div>
+				</div>
+			</div>
+			<div class="production-pipe-item">
+				<div class="pipe-item-image"><img src="images/production-pipe-02.png" alt=""></div>
+				<div class="pipe-item-panel">
+					<div class="pipe-item-name">Обсадные трубы для скважин с резьбовым соединением</div>
+					<div class="pipe-item-desc">для скважин с резьбовым соединением в соответствии с ТУ 2248-001-84300500-2009</div>
+				</div>
+			</div>
+			<div class="production-pipe-item">
+				<div class="pipe-item-image"><img src="images/production-pipe-03.png" alt=""></div>
+				<div class="pipe-item-panel">
+					<div class="pipe-item-name">Наружные и внутренние Канализационные трубы</div>
+					<div class="pipe-item-desc">для систем безнапорной наружной канализации производятся по ТУ 2248-057-72311668-2007</div>
+				</div>
+			</div>
+		</div>
+		
+	<div class="panel panel_white panel_production-pipes ">		
+		<hr class="uk-margin-top-remove">
+		<div class="production-pipes-button uk-text-center">
+			<a class="uk-button button_chevron button_blank" href="">Перейти в каталог</a>
+		</div>
+	</div>
+
+</div>
 	
 
 </main>
