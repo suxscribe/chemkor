@@ -28,7 +28,7 @@
 						<div class="slideshow_solutions-item-content">
 							<div class="slideshow_solutions-item-title">Ливневая канализация</div>
 							<div class="slideshow_solutions-item-text">Ливневая канализация состоит из различных труб, сифонов, заглушек и т.д. Эти элементы включены в ее схему и при установке учитываются в строгом порядке.</div>
-							<div class="slideshow_solutions-item-button"><a href="" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
+							<div class="slideshow_solutions-item-button"><a href="tekh-resheniya.php" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
 						</div>
 
 					</div>
@@ -46,7 +46,7 @@
 							<div class="slideshow_solutions-item-content">
 								<div class="slideshow_solutions-item-title">Ливневая канализация</div>
 								<div class="slideshow_solutions-item-text">Ливневая канализация состоит из различных труб, сифонов, заглушек и т.д. Эти элементы включены в ее схему и при установке учитываются в строгом порядке.</div>
-								<div class="slideshow_solutions-item-button"><a href="" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
+								<div class="slideshow_solutions-item-button"><a href="tekh-resheniya.php" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
 							</div>
 
 						</div>
@@ -110,7 +110,7 @@
 	</div>
 
 	<div class="uk-container container-1160 uk-margin-large-bottom">
-		<div class="block-title uk-h3">Каталог продукции <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a></div>
+		<div class="block-title uk-h3">Каталог продукции <a href="katalog-produktsii.php" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a></div>
 
 
 		<div class="slideset slideset_catalog slideset-count" data-uk-slideset="{default:2, small:2, medium:2, large:3}">
@@ -130,7 +130,7 @@
 							<div class="catalog-item_slider-content">
 								<div class="catalog-item_slider-title uk-h3 text-white">Напорные трубопроводы</div>
 								<div class="catalog-item_slider-description">Короткая подсказка по сфере применения</div>
-								<div class="catalog-item_slider-button"><a href="" class="uk-button button_chevron button_white">В Каталог</a></div>
+								<div class="catalog-item_slider-button"><a href="katalog-produktsii.php" class="uk-button button_chevron button_white">В Каталог</a></div>
 							</div>
 							<a href="" class="uk-position-cover"></a>
 						</div>
@@ -144,7 +144,7 @@
 							<div class="catalog-item_slider-content">
 								<div class="catalog-item_slider-title uk-h3 text-white">Напорные трубопроводы</div>
 								<div class="catalog-item_slider-description">Короткая подсказка по сфере применения</div>
-								<div class="catalog-item_slider-button"><a href="" class="uk-button button_chevron button_white">В Каталог</a></div>
+								<div class="catalog-item_slider-button"><a href="katalog-produktsii.php" class="uk-button button_chevron button_white">В Каталог</a></div>
 							</div>
 							<a href="" class="uk-position-cover"></a>
 						</div>
@@ -158,7 +158,7 @@
 							<div class="catalog-item_slider-content">
 								<div class="catalog-item_slider-title uk-h3 text-white">Напорные трубопроводы</div>
 								<div class="catalog-item_slider-description">Короткая подсказка по сфере применения</div>
-								<div class="catalog-item_slider-button"><a href="" class="uk-button button_chevron button_white">В Каталог</a></div>
+								<div class="catalog-item_slider-button"><a href="katalog-produktsii.php" class="uk-button button_chevron button_white">В Каталог</a></div>
 							</div>
 							<a href="" class="uk-position-cover"></a>
 						</div>
@@ -172,7 +172,7 @@
 							<div class="catalog-item_slider-content">
 								<div class="catalog-item_slider-title uk-h3 text-white">Напорные трубопроводы</div>
 								<div class="catalog-item_slider-description">Короткая подсказка по сфере применения</div>
-								<div class="catalog-item_slider-button"><a href="" class="uk-button button_chevron button_white">В Каталог</a></div>
+								<div class="catalog-item_slider-button"><a href="katalog-produktsii.php" class="uk-button button_chevron button_white">В Каталог</a></div>
 							</div>
 							<a href="" class="uk-position-cover"></a>
 						</div>
@@ -186,7 +186,7 @@
 							<div class="catalog-item_slider-content">
 								<div class="catalog-item_slider-title uk-h3 text-white">Напорные трубопроводы</div>
 								<div class="catalog-item_slider-description">Короткая подсказка по сфере применения</div>
-								<div class="catalog-item_slider-button"><a href="" class="uk-button button_chevron button_white">В Каталог</a></div>
+								<div class="catalog-item_slider-button"><a href="katalog-produktsii.php" class="uk-button button_chevron button_white">В Каталог</a></div>
 							</div>
 							<a href="" class="uk-position-cover"></a>
 						</div>
@@ -292,7 +292,7 @@
 					</div>
 				</div>
 			</div>
-			<a href="" class="uk-button button_chevron uk-margin-top uk-visible-small uk-width-1-1">В каталог</a>
+			<a href="katalog-produktsii.php" class="uk-button button_chevron uk-margin-top uk-visible-small uk-width-1-1">В каталог</a>
 
 		</div>
 	</div>

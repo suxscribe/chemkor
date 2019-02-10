@@ -59,21 +59,20 @@
 
 				<div class="uk-dropdown uk-dropdown-navbar">
 					<ul class="uk-nav uk-nav-navbar">
-						<li><a href="#">Компания</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">Производство</a></li>
-						<li><a href="#">Лаборатория</a></li>
-						<li><a href="#">Фотогалерея</a></li>
+						<li><a href="page-company.php">Компания</a></li>
+						<li><a href="news.php">Новости</a></li>
+						<li><a href="page-production.php">Производство</a></li>
+						<li><a href="page-laboratory.php">Лаборатория</a></li>
 					</ul>
 				</div>
 
 			</li>
-			<li class="uk-active"><a href="">Каталог продукции</a></li>
-			<li><a href="">Решения</a></li>
-			<li><a href="">Проекты</a></li>
+			<li class="uk-active"><a href="katalog-produktsii.php">Каталог продукции</a></li>
+			<li><a href="tekh-resheniya.php">Решения</a></li>
+			<li><a href="realizovannyye-proyekty.php">Проекты</a></li>
 			<li><a href="">Документация</a></li>
 			<li><a href="">Пресс-центр</a></li>
-			<li><a href="">Контакты</a></li>
+			<li><a href="contacts.php">Контакты</a></li>
 		</ul>
 		<div class="header-top-phone">
 			<div class="header-top-phone-sign uk-flex-item-none" data-uk-dropdown>

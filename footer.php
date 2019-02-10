@@ -21,39 +21,39 @@
 	 			<div class="footer-menu-1">
 	 				<div class="uk-h4">КОМПАНИЯ</div>
 	 				<ul class="uk-nav">
-	 					<li><a href="">О компании</a></li>
-	 					<li><a href="">Производство</a></li>
-	 					<li><a href="">Лаборатория</a></li>
+	 					<li><a href="page-company.php">О компании</a></li>
+	 					<li><a href="page-production.php">Производство</a></li>
+	 					<li><a href="page-laboratory.php">Лаборатория</a></li>
 	 					<li><a href="">Награды</a></li>
-	 					<li><a class="uk-h4" href="">Проекты</a></li>
+	 					<li><a class="uk-h4" href="realizovannyye-proyekty.php">Проекты</a></li>
 	 				</ul>
 
 	 			</div>
 	 			<div class="footer-menu-2">
 	 				<div class="uk-h4">КАТАЛОГ</div>
 	 				<ul class="uk-nav">
-	 					<li><a href="">Внутренняя канализация</a></li>
-	 					<li><a href="">Наружная канализация</a></li>
-	 					<li><a href="">Трубы напорные водопроводные</a></li>
-	 					<li><a href="">Трубы клеевые напорные</a></li>
-	 					<li><a href="">Обсадные трубы, фильтры, оголовок</a></li>
-	 					<li><a href="">Готовые решения</a></li>
+	 					<li><a href="naruzhnaya-kanalizatsiya.php">Внутренняя канализация</a></li>
+	 					<li><a href="naruzhnaya-kanalizatsiya.php">Наружная канализация</a></li>
+	 					<li><a href="obsadnyye-truby.php">Трубы напорные водопроводные</a></li>
+	 					<li><a href="obsadnyye-truby.php">Трубы клеевые напорные</a></li>
+	 					<li><a href="obsadnyye-truby.php">Обсадные трубы, фильтры, оголовок</a></li>
+	 					<li><a href="obsadnyye-truby.php">Готовые решения</a></li>
 	 				</ul>
 	 			</div>
 	 			<div class="footer-menu-3">
 	 				<div class="uk-h4">ДОКУМЕНТАЦИЯ</div>
 	 				<ul class="uk-nav">
-	 					<li><a href="">Сертификаты</a></li>
+	 					<li><a href="sertifikaty.php">Сертификаты</a></li>
 	 					<li><a href="">Нормативные документы</a></li>
-	 					<li><a href="">Техническая информация</a></li>
+	 					<li><a href="tekh-resheniya.php">Техническая информация</a></li>
 	 				</ul>
 	 			</div>
 	 			<div class="footer-menu-4">
 	 				<div class="uk-h4">ПРЕСС-ЦЕНТР</div>
 	 				<ul class="uk-nav">
-	 					<li><a href="">Новости</a></li>
-	 					<li><a href="">Фотоотчеты</a></li>
-	 					<li><a href="">Статьи</a></li>
+	 					<li><a href="news.php">Новости</a></li>
+	 					<li><a href="news.php">Фотоотчеты</a></li>
+	 					<li><a href="news.php">Статьи</a></li>
 
 	 				</ul>
 
