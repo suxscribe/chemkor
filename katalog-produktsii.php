@@ -49,7 +49,7 @@
 
         <div class="uk-container container-1160 uk-margin-large-bottom katalog-container">
             <div class="vertical-line vertical-line__katalog-top"></div>
-            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin>
+            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product uk-block-product__katalog" data-uk-grid-margin>
                 <div>
                     <div class="uk-card-product">
                         <p>Напорные трубы</p>

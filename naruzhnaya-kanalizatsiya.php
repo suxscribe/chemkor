@@ -77,7 +77,7 @@
         </div><!-- .uk-container -->
 
         <div class="uk-container container-1160 uk-margin-large-bottom">
-            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin>
+            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product uk-block-product__naruzhnayaK" data-uk-grid-margin>
 
                 <div>
                     <div class="uk-card-product">
@@ -105,55 +105,110 @@
                                 <img src="images/cart-popup-pic-4.png" alt="">
                                 <div class="modal-product-content">
                                     <div class="modal-product-title">Тезническое описание</div>
-                                    <p class="modal-product-txt">Нормативный документ: EN 1401.
-                                        Цвет отвода ПВХ: оранжевый
-                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.
-                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.
-                                        Гарантийный срок хранения: 2 года.
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
                                         Срок службы: не менее 50 лет</p>
                                 </div>
                             </div>
                             <div class="uk-overflow-container">
-                                <table class="uk-table">
+                                <table class="uk-table uk-table-striped">
                                     <tr>
-                                        <td>1.1</td>
-                                        <td>1.2</td>
-                                        <td>1.3</td>
-                                        <td>1.4</td>
-                                        <td>1.5</td>
-                                        <td>1.6</td>
-                                        <td>1.7</td>
-                                        <td>1.8</td>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
                                     </tr>
                                     <tr>
-                                        <td>2.1</td>
-                                        <td>2.2</td>
-                                        <td>2.3</td>
-                                        <td>2.4</td>
-                                        <td>2.5</td>
-                                        <td>2.6</td>
-                                        <td>2.7</td>
-                                        <td>2.8</td>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
                                     </tr>
                                     <tr>
-                                        <td>3.1</td>
-                                        <td>3.2</td>
-                                        <td>3.3</td>
-                                        <td>3.4</td>
-                                        <td>3.5</td>
-                                        <td>3.6</td>
-                                        <td>3.7</td>
-                                        <td>3.8</td>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
                                     </tr>
                                     <tr>
-                                        <td>4.1</td>
-                                        <td>4.2</td>
-                                        <td>4.3</td>
-                                        <td>4.4</td>
-                                        <td>4.5</td>
-                                        <td>4.6</td>
-                                        <td>4.7</td>
-                                        <td>4.8</td>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
                                     </tr>
                                 </table>
                             </div>
@@ -194,7 +249,8 @@
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Муфта надвижная ПВХ наружной канализации</p>
+                        <p>Муфта соединительная
+                            ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-4.jpg" alt="tryba">
                         <a href="" class="uk-position-cover"></a>
                     </div>
@@ -202,12 +258,67 @@
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Муфта надвижная ПВХ наружной канализации</p>
+                        <p>Тройник 45 ПВХ
+                            наружной канализации</p>
                         <img src="images/kanalizatsiya-card-5.jpg" alt="tryba">
                         <a href="" class="uk-position-cover"></a>
                     </div>
                 </div>
 
+                <div>
+                    <div class="uk-card-product">
+                        <p>Тройник 87 ПВХ
+                            наружной канализации</p>
+                        <img src="images/kanalizatsiya-card-10.jpg" alt="tryba">
+                        <a href="" class="uk-position-cover"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card-product">
+                        <p>Редуктор ПВХ
+                            наружной канализации</p>
+                        <img src="images/kanalizatsiya-card-9.jpg" alt="tryba">
+                        <a href="" class="uk-position-cover"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card-product">
+                        <p>Ревизия ПВХ
+                            наружной канализации</p>
+                        <img src="images/kanalizatsiya-card-8.jpg" alt="tryba">
+                        <a href="" class="uk-position-cover"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card-product">
+                        <p>Клапан обратный ПВХ
+                            ручного регулирования
+                            с ревизией</p>
+                        <img src="images/kanalizatsiya-card-7.jpg" alt="tryba">
+                        <a href="" class="uk-position-cover"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card-product">
+                        <p>Заглушка для раструба
+                            ПВХ ручного регулирования
+                            с ревизией</p>
+                        <img src="images/kanalizatsiya-card-6.jpg" alt="tryba">
+                        <a href="" class="uk-position-cover"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card-product">
+                        <p>Уплотнительное кольцо канализационной трубы</p>
+                        <img src="images/kanalizatsiya-card-6.jpg" alt="tryba">
+                        <a href="" class="uk-position-cover"></a>
+                    </div>
+                </div>
             </div><!-- .uk-grid -->
         </div><!-- .container-1160 -->
 

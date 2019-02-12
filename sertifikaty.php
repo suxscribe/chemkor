@@ -79,7 +79,7 @@
 			</div>
 
 			<div class="uk-text-center">
-				<a href="" class="uk-button uk-button__my">СКАЧАТЬ АРХИВОМ</a>
+				<a href="" class="uk-button uk-button__my button-sertifikaty">СКАЧАТЬ АРХИВОМ</a>
 			</div>
 		</div>
 
