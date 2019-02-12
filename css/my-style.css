@@ -844,7 +844,9 @@ div.menu-modal-menu a{
 .modal-menu-search input:-moz-placeholder      { color: var(--orange); }
 .modal-menu-search input:-ms-input-placeholder { color: var(--orange); }
 .modal-menu-search input::-webkit-input-placeholder { color: var(--orange); }
-
+.uk-modal__product .uk-modal-dialog{
+	max-width: 100%;
+}
 .modal-menu-dropdown-items{
 	position: fixed;
 	top: 70px;
