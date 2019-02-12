@@ -865,6 +865,7 @@ h4, .uk-h4 {
 /* ADVANTAGES */
 .panel_advantage-top {
 	background: var(--black);
+	height: 100%;
 }
 .panel_advantage-top-bg {
 	position: absolute;
@@ -878,8 +879,9 @@ h4, .uk-h4 {
 .panel_advantage-top-content {
 	display: flex;
 	-ms-align-items: center;
-	align-items: center;
-	padding: 68px var(--column) 260px var(--column);
+	align-items: flex-start;
+	padding: 68px 30px 68px 30px;
+	flex-direction: column;
 }
 
 .panel_advantage-number {
@@ -896,6 +898,10 @@ h4, .uk-h4 {
 	font-size: 46px;
 	line-height: 53px;
 	color: #fff;
+	margin-bottom: 30px;
+}
+.panel_advantage-desc {
+	color: #fff;
 }
 
 .panel_advantage {
@@ -905,20 +911,25 @@ h4, .uk-h4 {
 	position: relative;
 }
 .panel_advantage-content {
-	padding: 80px 40px 80px 0;
+	padding: 0;
 }
 .advantage-list {
 	list-style-type: none;
 	padding: 0;
-	margin-bottom: -32px;
+	margin-bottom: 0;
 }
 .advantage-item {
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
-	margin-bottom: 32px;
+	margin-bottom: 0;
+	padding: 24px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	cursor: pointer;
 }
-
+.advantage-item:hover {
+	background: rgba(213,213,213,0.16);
+}
 .advantage-item-icon {
 	margin-right: 26px;
 	width: 72px;
@@ -935,6 +946,14 @@ h4, .uk-h4 {
 }
 .panel_advantage-content {
 	flex: 1 1 auto;
+}
+
+
+.panel_advantages-switcher {
+	height: 100%;
+}
+.panel_advantages-switcher > li {
+	height: 100%;
 }
 
 /*NEWS TEASERS*/
@@ -1814,9 +1833,18 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		padding-top: 100px;
 	}
 	.panel_advantage-content {
-		padding: 80px 40px;
+		/*padding: 80px 40px;*/
+		padding: 0;
 	}
-
+	.panel_advantage-grid-2 {
+		order: -1;
+	}
+	.panel_advantage-desc {
+		display: none;
+	}
+	.panel_advantage-top-content {
+		flex-direction: row;
+	}
 	.catalog-item_slider-title {
 		transform: translateY(0);
 	}
@@ -1906,7 +1934,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 	.panel_advantage-top-content {
 		align-items: flex-start;
-		padding: 68px 40px 260px 40px;
+		padding: 68px 30px 68px 30px;
+		flex-direction: column;
+	}
+	.panel_advantage-top-content {
 		flex-direction: column;
 	}
 	.slideshow_solutions-bg {

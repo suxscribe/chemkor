@@ -206,52 +206,119 @@
 		
 	</div>
 
-	<div class="uk-container container-1304 uk-margin-large-bottom">
-		<div class="panel panel_bg panel_advantage-top block_pulltop">
-			<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
-			<div class="panel_advantage-top-content panel-content">
-				<div class="panel_advantage-number">50+</div>
-				<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+
+
+	<div class="container-1160 uk-container uk-margin-large-bottom">
+		<div class="uk-grid uk-grid-collapse panel_advantage-grid">
+			<div class="uk-width-large-3-5 panel_advantage-grid-1">
+				<div class="panel panel_white panel_advantage-side">
+					
+					<div class="panel_advantage-content">
+						<ul class="advantage-list" data-uk-switcher="{connect:'#advantages'}">
+							<li class="advantage-item">
+								<div class="advantage-item-icon"><img src="images/advantage-01.svg" alt=""></div>
+								<div class="advantage-item-text">Экологическая безопасность</div>
+							</li>
+							<li class="advantage-item">
+								<div class="advantage-item-icon"><img src="images/advantage-02.svg" alt=""></div>
+								<div class="advantage-item-text">Коррозийная стойкость и химическая инертность</div>
+							</li>
+							<li class="advantage-item">
+								<div class="advantage-item-icon"><img src="images/advantage-03.svg" alt=""></div>
+								<div class="advantage-item-text">Стойкость к абразивному износу</div>
+							</li>
+							<li class="advantage-item">
+								<div class="advantage-item-icon"><img src="images/advantage-04.svg" alt=""></div>
+								<div class="advantage-item-text">Экономическая эффективность</div>
+							</li>
+							<li class="advantage-item">
+								<div class="advantage-item-icon"><img src="images/advantage-05.svg" alt=""></div>
+								<div class="advantage-item-text">Максимальное количество воды с наименьшим потреблением энергии </div>
+							</li>
+							<li class="advantage-item">
+								<div class="advantage-item-icon"><img src="images/advantage-06.svg" alt=""></div>
+								<div class="advantage-item-text">Стойкость к УФ-излучению</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>	
+			<div class="uk-width-large-2-5 panel_advantage-grid-2">
+				<ul class="uk-switcher panel panel_advantages-switcher" id="advantages">
+					<li>
+						<div class="panel panel_bg panel_advantage-top ">
+							<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
+							<div class="panel_advantage-top-content panel-content">
+								<div class="panel_advantage-number">50+</div>
+								<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+								<div class="panel_advantage-desc">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="panel panel_bg panel_advantage-top ">
+							<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
+							<div class="panel_advantage-top-content panel-content">
+								<div class="panel_advantage-number">60+</div>
+								<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+								<div class="panel_advantage-desc">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="panel panel_bg panel_advantage-top ">
+							<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
+							<div class="panel_advantage-top-content panel-content">
+								<div class="panel_advantage-number">70+</div>
+								<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+								<div class="panel_advantage-desc">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="panel panel_bg panel_advantage-top ">
+							<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
+							<div class="panel_advantage-top-content panel-content">
+								<div class="panel_advantage-number">80+</div>
+								<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+								<div class="panel_advantage-desc">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="panel panel_bg panel_advantage-top ">
+							<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
+							<div class="panel_advantage-top-content panel-content">
+								<div class="panel_advantage-number">90+</div>
+								<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+								<div class="panel_advantage-desc">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="panel panel_bg panel_advantage-top ">
+							<img class="panel_advantage-top-bg" src="images/panel-advantages-bg.jpg" alt="">
+							<div class="panel_advantage-top-content panel-content">
+								<div class="panel_advantage-number">100+</div>
+								<div class="panel_advantage-title">Срок эксплуатации<br>более 50 лет</div>
+								<div class="panel_advantage-desc">Исследования показывают, что благодаря лучшим гидравлическим свойствам, срок эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+
 			</div>
 		</div>
 
-		<div class="container-1160 uk-container">
-			<div class="panel panel_white panel_advantage">
-				<div class="panel_advantage-image uk-visible-large">
-					<img src="images/panel-advantage-img.jpg" alt="">
-				</div>
-				<div class="panel_advantage-content">
-					<ul class="advantage-list uk-column-medium-1-2">
-						<li class="advantage-item">
-							<div class="advantage-item-icon"><img src="images/advantage-01.svg" alt=""></div>
-							<div class="advantage-item-text">Экологическая безопасность</div>
-						</li>
-						<li class="advantage-item">
-							<div class="advantage-item-icon"><img src="images/advantage-02.svg" alt=""></div>
-							<div class="advantage-item-text">Коррозийная стойкость и химическая инертность</div>
-						</li>
-						<li class="advantage-item">
-							<div class="advantage-item-icon"><img src="images/advantage-03.svg" alt=""></div>
-							<div class="advantage-item-text">Стойкость к абразивному износу</div>
-						</li>
-						<li class="advantage-item">
-							<div class="advantage-item-icon"><img src="images/advantage-04.svg" alt=""></div>
-							<div class="advantage-item-text">Экономическая эффективность</div>
-						</li>
-						<li class="advantage-item">
-							<div class="advantage-item-icon"><img src="images/advantage-05.svg" alt=""></div>
-							<div class="advantage-item-text">Максимальное количество воды с наименьшим потреблением энергии </div>
-						</li>
-						<li class="advantage-item">
-							<div class="advantage-item-icon"><img src="images/advantage-06.svg" alt=""></div>
-							<div class="advantage-item-text">Стойкость к УФ-излучению</div>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</div>
+		
 	</div>
+
+
+
+
+	
 
 	<div class="block-news uk-container container-1160 uk-margin-large-bottom">
 		<div class="block-title uk-h3">
