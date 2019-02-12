@@ -4,7 +4,7 @@
 
         <div class="uk-container container-965 uk-margin-large-bottom">
             <h1 class="block-fullwidth-heading h1-titke">Обсадные трубы </h1>
-            <p class="resheniya-top-txt uk-text-center">Бытовые скважины – обсадные трубы, которые не влияют на вкус
+            <p class="uk-h3 resheniya-top-txt uk-text-center">Бытовые скважины – обсадные трубы, которые не влияют на вкус
                 воды.</p>
         </div>
 
@@ -23,7 +23,7 @@
                         <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content">
                             <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
                             <img src="images/obsadnyye-truby-pic-info.jpg" alt="">
-                            <p>Описание конструкции
+                            <p>Описание конструкции <br>
                                 Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
                                 позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
                                 с металлическими и полиэтиленовыми трубами.</p>
@@ -101,7 +101,7 @@
                     <div class="uk-card-product uk-card-product__obsadnyye">
                         <p>Труба ПВХ наружной канализации</p>
                         <img src="images/obsadnyye-truby-1.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@
                     <div class="uk-card-product uk-card-product__obsadnyye">
                         <p>Отвод ПВХ наружной канализации</p>
                         <img src="images/obsadnyye-truby-2.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@
                     <div class="uk-card-product uk-card-product__obsadnyye">
                         <p>Муфта надвижная ПВХ наружной канализации</p>
                         <img src="images/obsadnyye-truby-3.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@
                     <div class="uk-card-product uk-card-product__obsadnyye">
                         <p>Муфта надвижная ПВХ наружной канализации</p>
                         <img src="images/obsadnyye-truby-4.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
 
@@ -133,7 +133,7 @@
                     <div class="uk-card-product uk-card-product__obsadnyye">
                         <p>Муфта надвижная ПВХ наружной канализации</p>
                         <img src="images/obsadnyye-truby-5.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
+                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
                     </div>
                 </div>
 

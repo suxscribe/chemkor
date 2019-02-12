@@ -101,7 +101,7 @@ body{
 }
 .vertical-line__katalog-bottom{
 	height: 70px;
-	top: -65px;
+	top: -35px;
 }
 .block-header-preview{
 	max-width: 965px;
@@ -125,19 +125,35 @@ body{
 .uk-card-product{
 	position: relative;
 	width: 100%;
-	min-height: 266px;
-	margin: 8px 0;
+	/*min-height: 267px;*/
+	height: 267px;
+	margin: 0;
 	padding-top: 38px;
 	background-color: #fff;
+	overflow: hidden;
 }
 .uk-card-product img{
-	max-height: 211px;
+	max-height: 267px;
+}
+.uk-card-product__obsadnyye img{
+	max-height: 197px;
+}
+.uk-block-product__katalog img{
+	max-height: 244px;
+}
+.uk-block-product__naruzhnayaK img{
+	max-height: 200px;
 }
 .uk-card-product p{
 	font-size: 18px;
 	color: #3C3C3D;
 	margin: 0 40px;
 	line-height: 28px;
+}
+.katalog-container .uk-card-product p{
+	font-family: 'RussoOne', sans-serif;
+	font-size: 22px;
+	line-height: 1;
 }
 .uk-card-product a.uk-position-cover{
 	opacity: 0;
@@ -290,16 +306,18 @@ body{
 	font-size: 14px;
 	margin-bottom: 10px;
 }
-.contacts-block-layout-1 .contacts-block-content a{
-	color: #F26522;
-}
 .contacts-block-layout-1 .part-1{
 	padding: 25px	21px 0 21px;
+}
+.contacts-block-layout-1 p{
+	color: #828284;
+	line-height: 21px;
 }
 .part-1-title{
 	font-size: 20px;
 	color: #58595B;
 	line-height: 1;
+	margin-bottom: 15px;
 }
 .part-1-time{
 	margin-top: 5px;
@@ -315,22 +333,161 @@ body{
 .part-1-content-tel{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+.part-1-content-tel > p:first-child{
+	width: 100%;
+}
+.part-1-content-tel a:nth-child(even){
+	margin-right: 33px;
+}
+.dzerzhinsk-tel p{
+	width: 100%;
+	color: #3C3C3D;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.dzerzhinsk-tel p:first-child,
+.moscow-tel p:first-child{
+	color: #828284;
+	margin-bottom: 15px;
+}
+.moscow-tel a[href^="tel:"]{
+	width: 100%;
+	line-height: 22px;
+}
+.moscow-tel div{
+	color: #3C3C3D;
+	line-height: 1;
+}
+.moscow-tel div:first-of-type{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.moscow-tel div a[href^="mailto:"]{
+	margin-top: 5px;
+}
+.part-1-content-addres{
+	margin-bottom: 25px;
+}
+.part-1-content-addres > P:nth-child(2){
+	color: #3C3C3D;
+	line-height: 18px;
+}
+.part-1-content-addres > a,
+.part-1-content-addres p > a{
+	color: var(--orange);
+}
+.part-1-content-block1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 100%;
 	justify-content:space-between;
 	margin-bottom: 25px;
 }
-.part-1-content-tel p{
+.part-1-content-block1 > p:first-child{
+	width: 100%;
+	color: #828284;
+	font-weight: normal;
+	line-height: 21px;
+	margin-bottom: 18px;
+}
+.part-1-content-block1 p{
+	color: #3C3C3D;
+	line-height: 18px;
 	margin: 0;
+}
+.part-1-content a[href^="tel:"]{
+	display: block;
+	color: #3C3C3D;
 	font-weight: bold;
 }
-.part-1-content-tel p:first-child{
-	width: 100%;
-	font-weight: normal;
+.part-1-content a[href^="mailto:"]{
+	display: inline-block;
+	color: var(--orange);
+	margin-top: 10px;
 }
-.part-1-content-addres{
+.part-1-content-block2{
+	flex-basis: 100%;
 	margin-bottom: 30px;
 }
+.part-1-content-block2 p,
+.part-1-content-block2 a{
+	color: #3C3C3D;
+	line-height: 18px;
+	margin: 0;
+}
+.part-1-content-block2 a{
+	font-weight: bold;
+}
+.part-1-content-block2 p:first-child{
+	color: #828284;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+.tel-number{
+	margin-bottom: 25px;
+}
+.tel-number a[href^="tel:"]{
+	line-height: 18px;
+}
+.part-1-coordinates span{
+	display: block;
+	line-height: 18px;
+}
 .contacts-block-layout-1 .part-2{
+	position: relative;
 	width: 100%;
+}
+.dealer-fix{
+	margin-top: 15px;
+}
+.contacts-block-content .dealer-network{
+	height: 397px;
+	padding: 50px 20px 0 20px;
+	background-image: url(../images/map-ru.png);
+	background-repeat: no-repeat;
+	background-position: 0 15%;
+	background-size: 100%;
+}
+.dealer-network .part-1-title{
+	margin-bottom: 35px;
+}
+.dealer-network .part-1-content p{
+	margin-bottom: 5px;
+}
+.dealer-network .part-1-content a{
+	font-size: 18px;
+	line-height: 26px;
+}
+.dealer-network .part-1-content-block1 a{
+	width: 100%;
+}
+.dealer-network .part-1-content-block2{
+	line-height: 21px;
+}
+.yandex-mark{
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	color: #000;
+	line-height: 1; 
+	padding: 5px 10px 6px 25px;
+	border: 1px solid #e7e7e7;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.yandex-mark::before{
+	content: '';
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	background-image: url(../images/yandex-mark.jpg);
+	background-repeat: no-repeat;
 }
 .part-2 img{
 	width: 100%;
@@ -377,6 +534,8 @@ body{
 	margin-bottom: 0;
 }
 .uk-tab__contacts > li > a{
+	font-family: 'RussoOne', sans-serif;
+	font-size: 16px;
 	color: #fff;
 	border: 0;
 }
@@ -390,6 +549,7 @@ body{
 	border-width: 4px;
 }
 .uk-tab__obsadnyye > li > a{
+	font-family: 'RussoOne', sans-serif;
 	font-size: 16px;
 	color: #707070;
 	line-height: 1;
@@ -505,12 +665,16 @@ body{
 	position: relative;
 	top: -90px;
 }
+.panel_news .uk-grid-margin{
+	margin-top: 18px;
+}
 .panel__news-year{
 	height: 227px;
 	padding-left: 20px;
 }
 .news-year-block{
 	display: flex;
+	font-family: 'RussoOne', sans-serif;
 	font-size: 22px;
 	list-style: none;
 	padding-left: 0;
@@ -519,7 +683,7 @@ body{
 	overflow-y: hidden;
 }
 .news-year-block li{
-	margin-right: 35px;
+	margin-right: 7px;
 }
 .news-year-block li:first-child{
 	color: #000;
@@ -642,9 +806,9 @@ div.menu-modal-menu a{
 .modal-menu-dropdown{
 	cursor: pointer;
 }
-.modal-menu-dropdown ul{
-	display: none;
-}
+/*.modal-menu-dropdown ul{*/
+	/*display: none;*/
+/*}*/
 .modal-menu-search{
 	position: relative;
 	border-top: 1px solid #58595B;
@@ -680,16 +844,25 @@ div.menu-modal-menu a{
 .modal-menu-search input:-moz-placeholder      { color: var(--orange); }
 .modal-menu-search input:-ms-input-placeholder { color: var(--orange); }
 .modal-menu-search input::-webkit-input-placeholder { color: var(--orange); }
-
+.uk-modal__product .uk-modal-dialog{
+	max-width: 100%;
+}
 .modal-menu-dropdown-items{
-	display: none;
 	position: fixed;
 	top: 70px;
-	left: 5px;
+	left: 0;
 	right: 5px;
 	height: 100%;
 	background-color: #3C3C3D;
 	z-index: 2;
+	transform: translateX(100%);
+	transition: 0.3s;
+}
+.modal-menu-slide-right{
+	transform: translateX(1%);
+}
+.hover-table{
+	background-color: rgba(242,101,34, 0.2);
 }
 .modal-product-block{
 	display: flex;
@@ -742,30 +915,34 @@ div.menu-modal-menu a{
 	padding: 0;
 }
 .uk-modal__product .uk-table td{
+	min-width: 116px;
 	height: 89px;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
 	text-align: center;
 	vertical-align:middle;
 	padding: 0;
+	border-right: 1px solid #D5D5D5;
 }
-.uk-modal__product tr:hover{
-	background: #fcc;
+.uk-modal__product tr:first-child td{
+	height: 50px;
 }
-.uk-modal__product td,
-.uk-modal__product td:hover::after{
-	min-width: 120px;
+.uk-modal__product tr td:first-child{
+	min-width: 139px;
 }
-.uk-modal__product td:hover {
+.uk-modal__product tr:first-child td,
+.uk-modal__product tr td:first-child{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #828284;
+}
+.uk-modal__product tr td:hover {
 	color: #fff;
+	font-weight: normal;
 	background: var(--orange);
-}
-.uk-modal__product td:hover::after {
-	content: '';
-	display: block;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	background: #fcc;
-	z-index: -1;
 }
 .uk-close_product{
 	position: absolute;
@@ -916,6 +1093,9 @@ div.menu-modal-menu a{
 	.card-site-item:nth-child(2){
 		margin-right: 0;
 	}
+	.news-year-block li{
+		margin-right: 0;
+	}
 	.resheniya-562{
 		max-width: 562px;
 	}
@@ -934,21 +1114,69 @@ div.menu-modal-menu a{
 	.contacts-panel{
 		height: 227px;
 	}
+	.contacts-block-layout-2 .contacts-block-content{
+		padding: 43px 0 30px 40px;
+	}
+	.contacts-block-layout-1 .part-1-content a[href^="tel:"]{
+		width: 137px;
+	}
+	.contacts-block-layout-1 .moscow-tel a[href^="tel:"]{
+		width: 100%;
+	}
 	.contacts-block-layout-1 .part-1{
 		flex-basis: 63%;
 		padding-right: 0;
 	}
 	.part-1-title{
 		font-size: 22px;
+		margin-bottom: 25px;
 	}
 	.part-1-time span {
 		display: inline;
 	}
-	.part-1-content-tel{
+	.part-1-content-block1{
+		flex-basis: 73%;
+	}
+	.dealer-fix{
+		margin-top: 25px;
+	}
+	.contacts-block-content .dealer-network{
+		height: 372px;
+		padding-left: 40px;
+	}
+	.dealer-network  .part-1-content-block1{
+		flex-basis: 35%;
+	}
+	.dealer-network .part-1-content a[href^="tel:"]{
+		width: 100%;
+	}
+	.dealer-network .part-1-content-block2{
 		flex-basis: 61%;
 	}
 	.contacts-block-layout-1 .part-2{
 		flex-basis: 34%;
+	}
+	.tel-number{
+		flex-basis: 100%;
+		margin-bottom: 20px;
+	}
+	.tel-number a[href^="tel:"]{
+		display: inline-block;
+	}
+	.part-1-coordinates > p{
+		margin-bottom: 10px;
+	}
+	.part-1-content-addres{
+		flex-basis: 60%;
+	}
+	.sklad-fix + .part-1-content-addres span{
+		display: block;
+	}
+	.moscow-tel div:first-of-type a[href^="mailto:"]{
+		margin-left: 25px;
+	}
+	.moscow-tel div:last-of-type a[href^="mailto:"]{
+		margin-left: 8px;
 	}
 	.part-2 img{
 		height: 100%;
@@ -1008,6 +1236,9 @@ div.menu-modal-menu a{
 		margin: 0;
 		object-fit: contain;
 	}
+	.modal-product-block__design2 img{
+		align-self: center;
+	}
 	.modal-product-block .modal-product-content{
 		flex-basis: 54%;
 		text-align: left;
@@ -1045,6 +1276,9 @@ div.menu-modal-menu a{
 	.modal-product-footer{
 		height: 240px;
 		padding: 0;
+	}
+	.button-sertifikaty{
+		width: 100%;
 	}
 }/* END min-width: 768px */
 
@@ -1131,7 +1365,10 @@ div.menu-modal-menu a{
 	}
 	.uk-card-product__obsadnyye img{
 		max-width: 50%;
-		height: 100%;
+		max-height: 260px;
+	}
+	.uk-block-product__naruzhnayaK img{
+		max-height: 237px;
 	}
 	.card-site-content{
 		justify-content: center;
@@ -1161,19 +1398,80 @@ div.menu-modal-menu a{
 	.contacts-up{
 		top: -95px;
 	}
+	.part-1-title.sklad-fix{
+		margin-bottom: 10px;
+	}
 	.contacts-block-layout-1 .part-1{
 		flex-basis: 63%;
 		padding-right: 0;
 	}
-	.part-1-content-tel{
-		flex-basis: 46%;
+	.part-1-content-block1{
+		flex-basis: 40%;
 		margin-right: 70px;
 	}
-	.part-1-content-addres{
+	.part-1-content-block1 > div{
+		width: 166px;
+	}
+	.part-1-content a[href^="mailto:"]{
+		margin-top: 0;
+	}
+	.part-1-content-block2{
 		flex-basis: 25%;
+	}
+	.part-1-content-tel{
+		flex-basis: 50%;
+		margin-right: 70px;
+	}
+	.moscow-tel{
+		flex-basis: 60%;
+		margin-right: 10px;
+	}
+	.sklad-fix .part-1-content-tel{
+		flex-basis: 44.5%;
+	}
+	.tel-number a[href^="tel:"]:first-of-type{
+		margin-right: 23px;
+	}
+	.moscow-tel div:first-of-type a[href^="mailto:"]{
+		margin-left: 30px;
+	}
+	.moscow-tel div:last-of-type a[href^="mailto:"]{
+		margin-left: 12px;
+	}
+	.contacts-block-layout-1 .contacts-block-content{
+		max-height: 280px;
+		overflow: hidden;
+	}
+	.contacts-block-layout-1 .part-1-content a[href^="tel:"]{
+		width: 122px;
+	}
+	.part-1-content-addres{
+		flex-basis: 37%;
 	}
 	.contacts-block-layout-1 .part-2{
 		flex-basis: 34%;
+		height: 280px;
+	}
+	.contacts-block-layout-1 .dealer-fix{
+		max-height: 472px;
+	}
+	.contacts-block-content .dealer-network{
+		height: 424px;
+		background-position: 70% 10%;
+		background-size: 85%;
+	}
+	.dealer-network .part-1-content-block1{
+		flex-basis: 20%;
+		margin-right: 45px;
+	}
+	.dealer-network .part-1-content a[href^="tel:"]{
+		width: 100%;
+	}
+	.dealer-network .part-1-content-fantom{
+		flex-basis: 40%;
+	}
+	.dealer-network .part-1-content-block2{
+		flex-basis: 46%;
 	}
 	.part-2 img{
 		height: 280px;
@@ -1197,7 +1495,7 @@ div.menu-modal-menu a{
 		overflow: hidden;
 	}
 	.news-year-block li{
-		margin-right: 56px;
+		margin-right: 28px;
 	}
 	.uk-modal-header__news .uk-h3{
 		padding-top: 115px;
