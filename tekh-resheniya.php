@@ -21,7 +21,7 @@
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Ливневая канализация</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
+                        <a href="tr-livnevaya-kanalizatsiya.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
                 <div>
@@ -29,23 +29,23 @@
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Навозоудаление</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
+                        <a href="tr-navozoudalenie.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
                 <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
-                        <div class="card-site-title"><a href="">Орошение</a></div>
+                        <div class="card-site-title"><a href="">Теплицы</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
+                        <a href="tr-teplica.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
                 <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
-                        <div class="card-site-title"><a href="">Внутренняя канализация</a></div>
+                        <div class="card-site-title"><a href="">Канализация</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
+                        <a href="tr-kanalizatsiya.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
                 <div>
@@ -53,15 +53,15 @@
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Обсадные трубы</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
+                        <a href="obsadnyye-truby.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
                 <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
-                        <div class="card-site-title"><a href="">Напорный водопровод</a></div>
+                        <div class="card-site-title"><a href="">Сбор ливневых стоков с дорог</a></div>
                         <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
+                        <a href="tr-sbor-livnevyh.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
             </div>

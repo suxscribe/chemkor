@@ -1746,6 +1746,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 
 
+
+
 /*  RESPONSIVE */
 @media (max-width: 1304px) {
 	.slideshow_solutions .slideshow-nav {
@@ -1925,6 +1927,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 	.slider_production .uk-slider > li {
 		height: 50vw;
+	}
+
+	.uk-block-product__naruzhnayaK .uk-modal-dialog {
+		margin: 0 auto;
 	}
 }
 

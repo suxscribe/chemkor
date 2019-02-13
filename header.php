@@ -49,7 +49,7 @@
 	<header class="header-top" data-uk-sticky="{media: 960}">
 		<div class="header-top-logo">
 			<div class="logo-sign">
-				<a href=""><img src="images/logo.svg" alt=""></a>
+				<a href="./"><img src="images/logo.svg" alt=""></a>
 			</div>
 			<div class="logo-text"></div>
 		</div>
