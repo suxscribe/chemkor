@@ -756,13 +756,14 @@ body{
 	font-size: 30px;
 	color: #fff;
 	opacity: 0.9;
-	z-index: 1;
+	z-index: 1; 
 }
 .menu-mob-container{
 	height: 100%;
 	padding: 20px;
 	padding-top: 0;
 	background-color: #3C3C3D;
+	overflow-x: hidden;
 }
 .menu-modal-header{
 	display: flex;
