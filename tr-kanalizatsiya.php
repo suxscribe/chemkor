@@ -24,9 +24,7 @@
                             <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
                             <img src="images/obsadnyye-truby-pic-info.jpg" alt="">
                             <p>Описание конструкции <br>
-                                Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
-                                позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
-                                с металлическими и полиэтиленовыми трубами.</p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nulla numquam ipsum cupiditate deleniti, alias. Dolore dolorem nulla reiciendis debitis fugit deserunt iure repellat, nihil modi magni provident aliquam vel.</p>
                         </div>
                     </div><!-- .obsadnyye-add -->
                 </div>
@@ -36,10 +34,7 @@
                 </div>
             </div>
 
-            <div class="uk-hidden-large obsadnyye-info-mob">Обсадные трубы с трапецеидальной резьбой используются в строительстве и обустройстве водозаборных
-                скважин при их бурении на воду. Комплектуются скважинными фильтрами и оголовками. Бурение скважин с
-                применением труб ПВХ позволяет избегать загрязнения подземных вод, а также увеличивает скорость
-                бурения по сравнению с металлическими и полиэтиленовыми трубами.
+            <div class="uk-hidden-large obsadnyye-info-mob">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis deleniti nisi, ducimus sapiente laborum quae voluptatum, autem amet id debitis dignissimos. In maiores totam quas, consectetur cupiditate. Laudantium sapiente, dolores.
             </div>
         </div><!-- .uk-container -->
 
