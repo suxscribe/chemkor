@@ -41,6 +41,7 @@
 	<script src="js/components/sticky.js"></script>
 	<script src="js/components/lightbox.js"></script>
 	<script src="js/jquery.inputmask.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/my-script.js"></script>
 </head>

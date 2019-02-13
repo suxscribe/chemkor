@@ -43,5 +43,33 @@
       .children(':nth-child(' + ($(this).index() + 1) + ')')).toggleClass('hover-table');
     });
 
+
+    $(function() {
+      // $(".nicescroll-box").niceScroll({
+      //   cursorcolor:"black",
+      //   cursorborder: "0",
+      //   emulatetouch: true,
+      // });
+
+
+      var nice =
+        $(".nicescroll-box").niceScroll({
+          cursorcolor:"black",
+          cursorborder: "0",
+          emulatetouch: true,
+        });
+
+      var _super = nice.getContentSize;
+
+      nice.getContentSize = function () {
+        var page = _super.call(nice);
+        page.h = nice.win.height();
+        return page;
+      }
+
+      $('.nicescroll-rails.nicescroll-rails-vr').remove();
+
+    });
+
   })
 })(jQuery)
