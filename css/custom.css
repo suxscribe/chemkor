@@ -396,7 +396,7 @@ h4, .uk-h4 {
 	line-height: 38px;
 	padding-left: 28px;
 	padding-right: 28px;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: bold;
 	font-family: "Proxima Nova";
 	text-transform: uppercase;
@@ -406,7 +406,10 @@ h4, .uk-h4 {
 	border-color: var(--text);
 	background-color: transparent;
 }
-
+.button_medium {
+	min-height: 48px;
+	line-height: 48px;
+}
 .button_large {
 	min-height: 56px;
 	line-height: 56px;
@@ -497,6 +500,12 @@ h4, .uk-h4 {
 	padding-left: calc(var(--gutter) * 2);
 }
 
+.header-top-phone-dropdown a {
+	color: var(--black);
+}
+.header-top-phone-dropdown a:hover, .header-top-phone-dropdown a:focus {
+	opacity: 0.7;
+}
 .header-top-search .icon-search {
 	font-size: 28px;
 	color: var(--light-grey);
@@ -525,7 +534,7 @@ h4, .uk-h4 {
 	color: #fff;
 }
 .slideshow_solutions-bg {
-	height: 520px;
+	height: 420px;
 }
 .slideshow_solutions-bg img {
 	width: 100%;
@@ -581,7 +590,7 @@ h4, .uk-h4 {
 .slideshow_solutions .slideshow-nav {
 	position: absolute;
 	left: calc((100vw - 1304px) / 2 + var(--column));
-	top: 412px;
+	top: 312px;
 	font-family: RussoOne;
 }
 .slideshow-nav {
@@ -633,7 +642,7 @@ h4, .uk-h4 {
 
 /* 50% MARKET */
 .block_50 {
-	margin-top: -100px;
+	margin-top: -120px;
 	position: relative;
 	z-index: 1;
 }
@@ -1052,7 +1061,9 @@ h4, .uk-h4 {
 	height: 70px;
 	margin: 40px auto;
 }
-
+.vertical-line_m30 {
+	margin: 30px auto;
+}
 .panel_company-50 {
 		color: var(--orange);
 		font-family: RussoOne, sans-serif;
@@ -1123,6 +1134,10 @@ h4, .uk-h4 {
 	margin-bottom: -50px;
 	flex: 0 0 auto;
 	text-align: center;
+	transition: all 0.2s ease;
+}
+.production-pipe-item:hover .pipe-item-image {
+	transform:translateY(-20px);
 }
 
 .pipe-item-name {
@@ -1311,7 +1326,10 @@ h4, .uk-h4 {
 .block_certificate {
 	margin-top: -40px;
 }
-
+.block_certificate-img-container {
+	position: relative;
+	z-index: 1;
+}
 .block_certificate-img {
 	margin: 0 auto;
 	display: inline-block;
@@ -1749,6 +1767,15 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 
 
 /*  RESPONSIVE */
+@media (max-width: 1366px) {
+	.slideshow_solutions-bg {
+		height: 240px;
+	}
+	.slideshow_solutions .slideshow-nav {
+		top: 132px;
+	}
+}
+
 @media (max-width: 1304px) {
 	.slideshow_solutions .slideshow-nav {
 		left: var(--column);
@@ -1765,6 +1792,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.header-top-logo {
 		flex:1 0 auto;
 	}
+
 }
 @media (min-width: 1160px) {
 	.slider-nav {
@@ -2036,4 +2064,109 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.panel_production {
 		padding: 40px 30px;
 	}
+}
+
+
+
+/*ANIMATION */
+
+[class*="uk-animation-"] {
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1) !important;
+}
+
+/*
+ * Top
+ */
+@-webkit-keyframes uk-fade-top {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes uk-fade-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+ * Bottom
+ */
+@-webkit-keyframes uk-fade-bottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes uk-fade-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+ * Left
+ */
+@-webkit-keyframes uk-fade-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@keyframes uk-fade-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/*
+ * Right
+ */
+@-webkit-keyframes uk-fade-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@keyframes uk-fade-right {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.uk-scrollspy-inview {
+	opacity: 0;
 }

@@ -69,7 +69,21 @@
 
 			</li>
 			<li class="uk-active"><a href="katalog-produktsii.php">Каталог продукции</a></li>
-			<li><a href="tekh-resheniya.php">Решения</a></li>
+			<li class="uk-parent" data-uk-dropdown>
+				<a href="tekh-resheniya.php">Решения</a>
+
+				<div class="uk-dropdown uk-dropdown-navbar">
+					<ul class="uk-nav uk-nav-navbar">
+						<li><a href="obsadnyye-truby.php">Обсадные трубы</a></li>
+						<li><a href="tr-teplica.php">Теплицы</a></li>
+						<li><a href="tr-navozoudalenie.php">Навозоудаление</a></li>
+						<li><a href="tr-kanalizatsiya.php">Канализация</a></li>
+						<li><a href="tr-sbor-livnevyh.php">Сбор ливневых стоков с дорог</a></li>
+						<li><a href="tr-livnevaya-kanalizatsiya.php">Ливневая канализация</a></li>
+					</ul>
+				</div>
+
+			</li>
 			<li><a href="realizovannyye-proyekty.php">Проекты</a></li>
 			<li><a href="">Документация</a></li>
 			<li><a href="">Пресс-центр</a></li>
@@ -83,20 +97,20 @@
 						<div>
 							<p><strong>Представительство в Москве</strong><br>
 								г. Москва, ул. Бутлерова, 4, корп. 3 <br>
-								(495) 335-09-48, 335-10-82 <br>
+								<a href="tel:+74953350948">(495) 335-09-48</a>, <a href="tel:+74953351082">335-10-82</a> <br>
 								Время работы: с 8-30 до 17-30
 							</p>
 						</div>
 						<div>
 							<strong>Офис продаж в Н. Новгороде</strong> <br>
 							г. Н.Новгород, ул. Генкиной, 61 <br>
-							(831) 438-67-88 (многоканальный) <br>
+							<a href="tel:+78343816788">(831) 438-67-88</a> (многоканальный) <br>
 							Время работы: с 8-00 до 17-00
 						</div>
 						<div>
 							<strong>Производство</strong> <br>
 							г. Дзержинск, ул. 1 Мая, 1 <br>
-							(8313)  27-95-45, 26-47-83 <br>
+							<a href="tel:+78313279545">(8313)  27-95-45</a>, <a href="tel:+78313264783">26-47-83</a> <br>
 							Время работы: с 8-00 до 17-00
 						</div>
 					</div>
