@@ -8,9 +8,9 @@
         </div>
 
         <div class="uk-container container-1304">
-            <div class="panel panel_orange panel__news-year nicescroll-box">
+            <div class="panel panel_orange panel__news-year">
 
-                <ul class="uk-tab uk-tab-grid news-year-block " data-uk-switcher="{connect:'#contacts'}">
+                <ul class="uk-tab uk-tab-grid news-year-block nicescroll-box" data-uk-switcher="{connect:'#contacts'}">
                     <li class="uk-active"><a href="">ВСЕ</a></li>
                     <li><a href="">2019</a></li>
                     <li><a href="">2018</a></li>
