@@ -28,7 +28,7 @@
         </div>
 
 
-        <div class="block-news uk-container container-1160 uk-margin-large-bottom padding-l-r-20 news-up">
+        <div class="block-news uk-container container-1160 padding-l-r-20 news-up">
 
             <div id="contacts" class="uk-switcher">
 
@@ -279,9 +279,52 @@
                             </div>
                         </div>
 
+                        <div class="uk-hidden">
+                            <div class="news-item news-item_teaser">
+                                <div class="news-date">23 января</div>
+                                <div class="news-title"><a href="">РБК назвал 500 крупнейших российских компаний.</a>
+                                </div>
+                                <div class="news-image"><img src="images/news-image.jpg" alt=""></div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="uk-hidden">
+                            <div class="news-item news-item_teaser">
+                                <div class="news-date">23 января</div>
+                                <div class="news-title"><a href="">РБК назвал 500 крупнейших российских компаний.</a>
+                                </div>
+                                <div class="news-image"><img src="images/news-image-2.jpg" alt=""></div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="uk-hidden">
+                            <div class="news-item news-item_teaser">
+                                <div class="news-date">23 января</div>
+                                <div class="news-title"><a href="">РБК назвал 500 крупнейших российских компаний.</a>
+                                </div>
+                                <div class="news-image"><img src="images/news-image-3.jpg" alt=""></div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="uk-hidden">
+                            <div class="news-item news-item_teaser">
+                                <div class="news-date">23 января</div>
+                                <div class="news-title"><a href="">РБК назвал 500 крупнейших российских компаний.</a>
+                                </div>
+                                <div class="news-image"><img src="images/news-image-4.jpg" alt=""></div>
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <a href="" class="uk-button uk-button__my ">ЗАГРУЗИТЬ ЕЩЕ</a>
+                    <button id="all" type="button" class="uk-button uk-button__my ">ЗАГРУЗИТЬ ЕЩЕ</button>
 
                 </div><!-- .panel -->
                 <div class="panel panel_news">
@@ -369,7 +412,7 @@
 
                     </div>
 
-                    <a href="" class="uk-button uk-margin-top ">ЗАГРУЗИТЬ ЕЩЕ</a>
+                    <button id="2019" type="button" class="uk-button uk-button__my ">ЗАГРУЗИТЬ ЕЩЕ</button>
 
                 </div><!-- .panel -->
 
