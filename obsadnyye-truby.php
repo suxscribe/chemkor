@@ -15,14 +15,39 @@
                 <li class="uk-width-1-2"><a href="">Техн. скважина</a></li>
             </ul>
 
-            <div id="obsadnyye" class="uk-switcher uk-margin-minus ">
+            <div id="obsadnyye" class="uk-switcher uk-margin-minus">
                 <div class="obsadnyye-block">
                     <img src="images/obsadnyye-truby-pic-full.jpg" alt="obsadnyye-truby-pic-full">
-                    <div class="obsadnyye-add uk-hidden-medium">
-                        <button class="uk-button button-obsadnyye icon-plus " type="button" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
-                        <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content">
-                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
+
+                    <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:20%;left:50%;">
+                        <button class="uk-button button-obsadnyye icon-plus" type="button" data-uk-toggle="{target:'#obsadnyye-info1'}"></button>
+                        <div id="obsadnyye-info1" class="uk-hidden obsadnyye-add-content" style="top:70px;left:-155px;">
+                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info1'}"></button>
                             <img src="images/obsadnyye-truby-pic-info.jpg" alt="">
+                            <p>Описание конструкции <br>
+                                Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
+                                позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
+                                с металлическими и полиэтиленовыми трубами.</p>
+                        </div>
+                    </div><!-- .obsadnyye-add -->
+
+                    <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:30%; left:70%;">
+                        <button class="uk-button button-obsadnyye icon-plus" type="button" data-uk-toggle="{target:'#obsadnyye-info2'}"></button>
+                        <div id="obsadnyye-info2" class="uk-hidden obsadnyye-add-content" style="top:80px;left:-370px;">
+                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info2'}"></button>
+                            <img src="images/tr-obsadnie_fragment_2.jpg" alt="">
+                            <p>Описание конструкции <br>
+                                Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
+                                позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
+                                с металлическими и полиэтиленовыми трубами.</p>
+                        </div>
+                    </div><!-- .obsadnyye-add -->
+
+                    <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:50%;left:50%;">
+                        <button class="uk-button button-obsadnyye icon-plus" type="button" data-uk-toggle="{target:'#obsadnyye-info3'}"></button>
+                        <div id="obsadnyye-info3" class="uk-hidden obsadnyye-add-content" style="top:75px;left:-150px;">
+                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info3'}"></button>
+                            <img src="images/tr-obsadnie_fragment_3.jpg" alt="">
                             <p>Описание конструкции <br>
                                 Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
                                 позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
@@ -140,42 +165,7 @@
             </div><!-- .uk-grid -->
         </div><!-- .container-1160 -->
 
-        <div class="card-site uk-container container-1160 uk-margin-large-bottom">
-            <div class="uk-h3 obsadnyye-title">
-                Реализованные проекты <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В
-                    РАЗДЕЛ</a>
-            </div>
-
-            <div class="uk-flex card-site-content card-site-content__kanalizatsiya">
-                <div class="card-site-item card-site-item__kanalizatsiya">
-                    <div class="card-site-line"></div>
-                    <div class="card-site-title card-site-title__in-tag">
-                        <a href="">Нижегородский государственный академический театр драмы имени М. Горького</a>
-                        <div class="card-site-tag">Тип работ: Ливневая канализация</div>
-                    </div>
-                    <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                </div>
-                <div class="card-site-item card-site-item__kanalizatsiya">
-                    <div class="card-site-line"></div>
-                    <div class="card-site-title card-site-title__in-tag">
-                        <a href="">Нижегородский государственный академический театр драмы имени М. Горького</a>
-                        <div class="card-site-tag">Тип работ: Ливневая канализация</div>
-                    </div>
-                    <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                </div>
-                <div class="card-site-item card-site-item__kanalizatsiya uk-hidden-medium">
-                    <div class="card-site-line"></div>
-                    <div class="card-site-title card-site-title__in-tag">
-                        <a href="">Нижегородский государственный академический театр драмы имени М. Горького</a>
-                        <div class="card-site-tag">Тип работ: Ливневая канализация</div>
-                    </div>
-                    <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                </div>
-            </div>
-
-            <a href=""
-               class="uk-button button_chevron button_chevron__mob button_chevron__warning uk-margin-top uk-visible-small uk-width-1-1">В РАЗДЕЛ</a>
-        </div><!-- .card-site -->
+	    <?php include 'include-block-realizovannyye.php'; ?>
 
     </main>
 

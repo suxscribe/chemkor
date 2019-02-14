@@ -3,7 +3,7 @@
     <main>
 
         <div class="uk-container container-965 uk-margin-large-bottom">
-            <h1 class="block-fullwidth-heading h1-titke">Обсадные трубы </h1>
+            <h1 class="block-fullwidth-heading h1-titke">Теплицы</h1>
             <p class="uk-h3 resheniya-top-txt uk-text-center">Бытовые скважины – обсадные трубы, которые не влияют на вкус
                 воды.</p>
         </div>
@@ -11,28 +11,25 @@
         <div class="uk-container container-1160 uk-margin-large-bottom uk-position-relative">
 
             <ul class="uk-tab uk-tab-grid uk-tab__obsadnyye" data-uk-switcher="{connect:'#obsadnyye'}">
-                <li class="uk-width-1-2 uk-active"><a href="">Бытовая скважина</a></li>
-                <li class="uk-width-1-2"><a href="">Техн. скважина</a></li>
+                <li class="uk-width-1-1 uk-active"><a href="">Теплицы</a></li>
             </ul>
 
             <div id="obsadnyye" class="uk-switcher uk-margin-minus ">
                 <div class="obsadnyye-block">
-                    <img src="images/obsadnyye-truby-pic-full.jpg" alt="obsadnyye-truby-pic-full">
-                    <div class="obsadnyye-add uk-hidden-medium">
-                        <button class="uk-button button-obsadnyye icon-plus " type="button" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
-                        <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content">
-                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
-                            <img src="images/obsadnyye-truby-pic-info.jpg" alt="">
+                    <img src="images/tr-teplica.jpg" alt="obsadnyye-truby-pic-full">
+
+                    <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:35%;left:50%;">
+                        <button class="uk-button button-obsadnyye icon-plus" type="button" data-uk-toggle="{target:'#obsadnyye-info1'}"></button>
+                        <div id="obsadnyye-info1" class="uk-hidden obsadnyye-add-content" style="top:95px;left:-200px;">
+                            <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info1'}"></button>
+                            <img src="images/tr-teplica-fragment.jpg" alt="">
                             <p>Описание конструкции <br>
                                 Комплектуются скважинными фильтрами и оголовками. Бурение скважин с применением труб ПВХ
                                 позволяет избегать загрязнения подземных вод, а также увеличивает скорость бурения по сравнению
                                 с металлическими и полиэтиленовыми трубами.</p>
                         </div>
                     </div><!-- .obsadnyye-add -->
-                </div>
 
-                <div class="obsadnyye-block">
-                    <img src="https://picsum.photos/800/730/?random" alt="">
                 </div>
             </div>
 
@@ -140,42 +137,7 @@
             </div><!-- .uk-grid -->
         </div><!-- .container-1160 -->
 
-        <div class="card-site uk-container container-1160 uk-margin-large-bottom">
-            <div class="uk-h3 obsadnyye-title">
-                Реализованные проекты <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В
-                    РАЗДЕЛ</a>
-            </div>
-
-            <div class="uk-flex card-site-content card-site-content__kanalizatsiya">
-                <div class="card-site-item card-site-item__kanalizatsiya">
-                    <div class="card-site-line"></div>
-                    <div class="card-site-title card-site-title__in-tag">
-                        <a href="">Нижегородский государственный академический театр драмы имени М. Горького</a>
-                        <div class="card-site-tag">Тип работ: Ливневая канализация</div>
-                    </div>
-                    <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                </div>
-                <div class="card-site-item card-site-item__kanalizatsiya">
-                    <div class="card-site-line"></div>
-                    <div class="card-site-title card-site-title__in-tag">
-                        <a href="">Нижегородский государственный академический театр драмы имени М. Горького</a>
-                        <div class="card-site-tag">Тип работ: Ливневая канализация</div>
-                    </div>
-                    <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                </div>
-                <div class="card-site-item card-site-item__kanalizatsiya uk-hidden-medium">
-                    <div class="card-site-line"></div>
-                    <div class="card-site-title card-site-title__in-tag">
-                        <a href="">Нижегородский государственный академический театр драмы имени М. Горького</a>
-                        <div class="card-site-tag">Тип работ: Ливневая канализация</div>
-                    </div>
-                    <div class="card-site-image"><img src="images/pic-placeholder.jpg" alt=""></div>
-                </div>
-            </div>
-
-            <a href=""
-               class="uk-button button_chevron button_chevron__mob button_chevron__warning uk-margin-top uk-visible-small uk-width-1-1">В РАЗДЕЛ</a>
-        </div><!-- .card-site -->
+	    <?php include 'include-block-realizovannyye.php'; ?>
 
     </main>
 

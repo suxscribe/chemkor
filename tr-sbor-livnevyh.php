@@ -3,7 +3,7 @@
     <main>
 
         <div class="uk-container container-965 uk-margin-large-bottom">
-            <h1 class="block-fullwidth-heading h1-titke">Обсадные трубы </h1>
+            <h1 class="block-fullwidth-heading h1-titke">Сбор ливневых стоков</h1>
             <p class="uk-h3 resheniya-top-txt uk-text-center">Бытовые скважины – обсадные трубы, которые не влияют на вкус
                 воды.</p>
         </div>
@@ -11,16 +11,15 @@
         <div class="uk-container container-1160 uk-margin-large-bottom uk-position-relative">
 
             <ul class="uk-tab uk-tab-grid uk-tab__obsadnyye" data-uk-switcher="{connect:'#obsadnyye'}">
-                <li class="uk-width-1-2 uk-active"><a href="">Бытовая скважина</a></li>
-                <li class="uk-width-1-2"><a href="">Техн. скважина</a></li>
+                <li class="uk-width-1-1 uk-active"><a href="">Сбор ливневых стоков</a></li>
             </ul>
 
             <div id="obsadnyye" class="uk-switcher uk-margin-minus ">
                 <div class="obsadnyye-block">
-                    <img src="images/obsadnyye-truby-pic-full.jpg" alt="obsadnyye-truby-pic-full">
-                    <div class="obsadnyye-add uk-hidden-medium">
+                    <img src="images/tr-livnevka_tc.jpg" alt="obsadnyye-truby-pic-full">
+                    <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:40%;left:35%;">
                         <button class="uk-button button-obsadnyye icon-plus " type="button" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
-                        <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content">
+                        <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content" style="top:80px;left:30px;">
                             <button type="button" class="icon-plus obsadnyye-add-close" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
                             <img src="images/obsadnyye-truby-pic-info.jpg" alt="">
                             <p>Описание конструкции <br>
@@ -29,10 +28,6 @@
                                 с металлическими и полиэтиленовыми трубами.</p>
                         </div>
                     </div><!-- .obsadnyye-add -->
-                </div>
-
-                <div class="obsadnyye-block">
-                    <img src="https://picsum.photos/800/730/?random" alt="">
                 </div>
             </div>
 

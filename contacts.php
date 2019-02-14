@@ -3,7 +3,7 @@
     <main>
 
         <div class="uk-container container-965">
-            <h1 class="block-fullwidth-heading h1-titke h1-title__contacts">Контакты</h1>
+            <h1 class="block-fullwidth-heading h1-titke h1-title__margin">Контакты</h1>
         </div>
 
         <div class="uk-container container-1160 ">
