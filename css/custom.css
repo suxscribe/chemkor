@@ -446,7 +446,8 @@ h4, .uk-h4 {
 	border-color: transparent;
 }
 .button_blank:hover, .button_blank:focus {
-	border-color: transparent;;
+	border-color: transparent;
+	opacity: 0.7;
 }
 
 
@@ -534,7 +535,7 @@ h4, .uk-h4 {
 	color: #fff;
 }
 .slideshow_solutions-bg {
-	height: 420px;
+	height: 520px;
 }
 .slideshow_solutions-bg img {
 	width: 100%;
@@ -590,7 +591,7 @@ h4, .uk-h4 {
 .slideshow_solutions .slideshow-nav {
 	position: absolute;
 	left: calc((100vw - 1304px) / 2 + var(--column));
-	top: 312px;
+	top: 412px;
 	font-family: RussoOne;
 }
 .slideshow-nav {
@@ -2168,5 +2169,23 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   }
 }
 .uk-scrollspy-inview {
+	opacity: 0;
+}
+
+
+.obsadnyye-add-close {
+	transition: all 0.2s ease;
+	opacity: 1;
+}
+.obsadnyye-add-close:hover {
+	opacity: 0.4;
+}
+
+.obsadnyye-add-content {
+	transition: all 0.2s ease;
+}
+.obsadnyye-add-content.uk-hidden{
+	display: flex !important;
+	visibility: visible !important;
 	opacity: 0;
 }

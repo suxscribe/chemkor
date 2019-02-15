@@ -126,11 +126,17 @@ function init() {
 
 	var slider = $('#slider');
 	var slider_current = $(slider).find('.slider-nav-current');
+	var slider_overall = $(slider).find('.slider-nav-overall');
+	
 
 	$(slider).on('focusitem.uk.slider', function(event, index, item) {
-		$(slider).find('.slider-nav-overall').html($(slider).find('li[data-slider-slide]').length);
+		if ($(slider_overall).html() == "") {
+			$(slider_overall).html($(slider).find('li[data-slider-slide]').length);
+		}
 		// event.preventDefault();
-		$(slider_current).html(index+1);
+		if ($(slider_current).html() != (index+1)) {
+			$(slider_current).html(index+1);
+		}
 		//console.log(index);
 		/* Act on the event */
 	});
@@ -138,6 +144,21 @@ function init() {
 
 
 
-
+	$('#company-number-1').on('inview.uk.scrollspy', function(){
+	    // custom code...
+	    $(this).animateNumber({ number: 60 });;
+	});
+	$('#company-number-2').on('inview.uk.scrollspy', function(){
+	    // custom code...
+	    $(this).animateNumber({ number: 83 });;
+	});
+	$('#company-number-3').on('inview.uk.scrollspy', function(){
+	    // custom code...
+	    $(this).animateNumber({ number: 40000 });;
+	});
+	$('#company-number-4').on('inview.uk.scrollspy', function(){
+	    // custom code...
+	    $(this).animateNumber({ number: 1657 });;
+	});
 
 });

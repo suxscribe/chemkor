@@ -34,29 +34,29 @@
 			<p class="uk-margin-large-bottom">Сегодня в числе приоритетов АО «ХЕМКОР» - оперативность принятия решений, контроль качества, индивидуальный подход в обслуживании клиентов.</p>
 		</div>
 	</div>
-	<div class="panel"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:1000}">
+	<div class="panel"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">
 		<div class="company-numbers uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin>
 			<div>
 				<div class="company-number-item">
-					<div class="company-number-item-number">60+</div>
+					<div class="company-number-item-number"><span id="company-number-1" data-uk-scrollspy="{delay: 1000}">0</span>+</div>
 					<div class="company-number-item-text">регионов России</div>
 				</div>
 			</div>
 			<div>
 				<div class="company-number-item">
-					<div class="company-number-item-number">83</div>
+					<div class="company-number-item-number"><span id="company-number-2" data-uk-scrollspy="{delay: 1250}">0</span></div>
 					<div class="company-number-item-text">регионов России</div>
 				</div>
 			</div>
 			<div>
 				<div class="company-number-item">
-					<div class="company-number-item-number">40 000</div>
+					<div class="company-number-item-number"><span id="company-number-3" data-uk-scrollspy="{delay: 1500}">0</span></div>
 					<div class="company-number-item-text">тонн годовая проектная мощность </div>
 				</div>
 			</div>
 			<div>
 				<div class="company-number-item">
-					<div class="company-number-item-number">1657</div>
+					<div class="company-number-item-number"><span id="company-number-4" data-uk-scrollspy="{delay: 1750}">0</span></div>
 					<div class="company-number-item-text">сотрудников в штате</div>
 				</div>
 			</div>

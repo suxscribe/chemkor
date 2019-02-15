@@ -42,6 +42,7 @@
 	<script src="js/components/lightbox.js"></script>
 	<script src="js/jquery.inputmask.js"></script>
 	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/my-script.js"></script>
 </head>
