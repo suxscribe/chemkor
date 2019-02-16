@@ -3,7 +3,7 @@
 	<main>
 
 		<div class="uk-container container-965">
-			<h1 class="block-fullwidth-heading h1-titke">Реализованные проекты</h1>
+                <h1 class="block-fullwidth-heading h1-titke h1-title__resheniya">Реализованные проекты</h1>
 			<p class="resheniya-top-txt uk-text-center">Наша компания ориентирована на выпуск качественной продукции.
 				Благодаря высокому качеству продукции и такому немаловажному фактору, влияющему на уровень спроса, как
 				оптимальное соотношение цены и качества, компания значительно расширила рынки сбыта</p>

@@ -51,8 +51,11 @@
                             </div><!-- .part-1-content -->
                         </div><!-- .part-1 -->
                         <div class="part-2">
-                            <img src="images/map-full.jpg" alt="map">
-                            <a href="https://yandex.ru/maps/-/CBFTYXuRCA" class="yandex-mark">Открить в Яндекс.Картах</a>
+                            <div class="contacts-map">
+                                <div class="contacts-map-holder">
+                                    <div id="frontpage-map" class="ifreme-contacts-map"></div>
+                                </div>
+                            </div>
                         </div><!-- .part-2 -->
                     </div><!-- .contacts-block-content -->
 
@@ -83,8 +86,11 @@
                             </div><!-- .part-1-content -->
                         </div><!-- .part-1 -->
                         <div class="part-2">
-                            <img src="images/map-full.jpg" alt="map">
-                            <a href="https://yandex.ru/maps/-/CSuPIdC" class="yandex-mark">Открить в Яндекс.Картах</a>
+                            <div class="contacts-map">
+                                <div class="contacts-map-holder" style="position: relative; width: 100%; height: 100%;">
+                                    <div id="frontpage-map2" class="ifreme-contacts-map"></div>
+                                </div>
+                            </div>
                         </div><!-- .part-2 -->
                     </div><!-- .contacts-block-content -->
 
@@ -117,8 +123,11 @@
                             </div><!-- .part-1-content -->
                         </div><!-- .part-1 -->
                         <div class="part-2">
-                            <img src="images/map-full.jpg" alt="map">
-                            <a href="https://yandex.ru/maps/-/CBBgQFhhpD" class="yandex-mark">Открить в Яндекс.Картах</a>
+                            <div class="contacts-map">
+                                <div class="contacts-map-holder">
+                                    <div id="frontpage-map3" class="ifreme-contacts-map"></div>
+                                </div>
+                            </div>
                         </div><!-- .part-2 -->
                     </div><!-- .contacts-block-content -->
 
@@ -220,8 +229,12 @@
                         </div><!-- .part-1 -->
 
                         <div class="part-2">
-                            <img src="images/map-full.jpg" alt="map">
-                            <a href="https://yandex.ru/maps/-/CSulYqb" class="yandex-mark">Открить в Яндекс.Картах</a>
+                            <div class="contacts-map">
+                                <div class="contacts-map-holder">
+                                    <div id="frontpage-map4" class="ifreme-contacts-map">
+                                    </div>
+                                </div>
+                            </div>
                         </div><!-- .part-2 -->
                     </div><!-- .contacts-block-content -->
 
@@ -260,8 +273,12 @@
                         </div><!-- .part-1 -->
 
                         <div class="part-2">
-                            <img src="images/map-full.jpg" alt="map">
-                            <a href="https://yandex.ru/maps/-/CSul6sD" class="yandex-mark">Открить в Яндекс.Картах</a>
+                            <div class="contacts-map">
+                                <div class="contacts-map-holder">
+                                    <div id="frontpage-map5" class="ifreme-contacts-map">
+                                    </div>
+                                </div>
+                            </div>
                         </div><!-- .part-2 -->
                     </div><!-- .contacts-block-content -->
                 </div><!-- .contacts-block-layout-1 -->

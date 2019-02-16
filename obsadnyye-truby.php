@@ -119,51 +119,7 @@
             </div>
         </div>
 
-        <div class="uk-container container-1160 uk-margin-large-bottom">
-            <div class="uk-h3 obsadnyye-title">Комплект системы</div>
-            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin>
-                <div>
-                    <div class="uk-card-product uk-card-product__obsadnyye">
-                        <p>Труба ПВХ наружной канализации</p>
-                        <img src="images/obsadnyye-truby-1.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="uk-card-product uk-card-product__obsadnyye">
-                        <p>Отвод ПВХ наружной канализации</p>
-                        <img src="images/obsadnyye-truby-2.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="uk-card-product uk-card-product__obsadnyye">
-                        <p>Муфта надвижная ПВХ наружной канализации</p>
-                        <img src="images/obsadnyye-truby-3.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="uk-card-product uk-card-product__obsadnyye">
-                        <p>Муфта надвижная ПВХ наружной канализации</p>
-                        <img src="images/obsadnyye-truby-4.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="uk-card-product uk-card-product__obsadnyye">
-                        <p>Муфта надвижная ПВХ наружной канализации</p>
-                        <img src="images/obsadnyye-truby-5.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover" data-uk-lightbox></a>
-                    </div>
-                </div>
-
-            </div><!-- .uk-grid -->
-        </div><!-- .container-1160 -->
+	    <?php include 'include-block-komplekt-sistemy.php'; ?>
 
 	    <?php include 'include-block-realizovannyye.php'; ?>
 

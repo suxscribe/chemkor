@@ -85,15 +85,14 @@
                         <img src="images/kanalizatsiya-card-1.jpg" alt="tryba">
                         <a href="#kanalizatsiya-item-1" class="uk-position-cover" data-uk-modal></a>
                     </div><!-- .uk-card-product -->
-
                     <div id="kanalizatsiya-item-1" class="uk-modal uk-modal__product">
                         <div class="uk-modal-dialog uk-modal-dialog-large">
                             <a class="uk-modal-close uk-close uk-close_product"></a>
 
                             <div class="modal-product-block modal-product-block__design1">
-                                <img src="images/kanalizatsiya-card-2.jpg" alt="">
+                                <img src="images/kanalizatsiya-card-1.jpg" alt="">
                                 <div class="modal-product-content">
-                                    <div class="uk-h3 modal-product-title">Отвод ПВХ <br> наружной канализации</div>
+                                    <div class="uk-h3 modal-product-title">Труба ПВХ <br> наружной канализации</div>
                                     <p class="modal-product-txt">Отвод применяется для плавного изменения направления
                                         движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
                                         с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
@@ -228,97 +227,1519 @@
                                 </div>
                             </div>
                         </div><!-- .uk-modal-dialog -->
-                    </div><!-- #news-post-id4 -->
+                    </div><!-- #kanalizatsiya-item-1 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
                         <p>Отвод ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-2.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-2" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-2" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-2.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Отвод ПВХ<br> наружной канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-2 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
                         <p>Муфта надвижная ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-3.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-3" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-3" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-3.jpg" alt="">
+                                <div class="modal-product-content">
+                                        <div class="uk-h3 modal-product-title">Муфта надвижная ПВХ<br> наружной канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-3 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Муфта соединительная
-                            ПВХ наружной канализации</p>
+                        <p>Муфта соединительная ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-4.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-4" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-4" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-4.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Муфта соединительная<br> ПВХ наружной канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-4 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Тройник 45 ПВХ
-                            наружной канализации</p>
+                        <p>Тройник 45 ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-5.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-5" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-5" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-5.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Тройник 45 ПВХ наружной<br> канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-5 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Тройник 87 ПВХ
-                            наружной канализации</p>
+                        <p>Тройник 87 ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-10.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-6" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-6" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-10.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Тройник 87 ПВХ наружной<br> канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-6 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Редуктор ПВХ
-                            наружной канализации</p>
+                        <p>Редуктор ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-9.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-7" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-7" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-9.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Редуктор ПВХ наружной<br> канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-7 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Ревизия ПВХ
-                            наружной канализации</p>
+                        <p>Ревизия ПВХ наружной канализации</p>
                         <img src="images/kanalizatsiya-card-8.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-8" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-8" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-8.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Ревизия ПВХ наружной<br> канализации</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-8 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Клапан обратный ПВХ
-                            ручного регулирования
-                            с ревизией</p>
+                        <p>Клапан обратный ПВХ ручного регулирования с ревизией</p>
                         <img src="images/kanalizatsiya-card-7.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-9" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-9" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-7.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Клапан обратный ПВХ<br> ручного регулирования с ревизией</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-9 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
-                        <p>Заглушка для раструба
-                            ПВХ ручного регулирования
-                            с ревизией</p>
+                        <p>Заглушка для раструба ПВХ ручного регулирования с ревизией</p>
                         <img src="images/kanalizatsiya-card-6.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-10" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-10" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-6.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Заглушка для раструба<br> ПВХ ручного регулирования с ревизией</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-10 -->
                 </div>
 
                 <div>
                     <div class="uk-card-product">
                         <p>Уплотнительное кольцо канализационной трубы</p>
                         <img src="images/kanalizatsiya-card-6.jpg" alt="tryba">
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
+                        <a href="#kanalizatsiya-item-11" class="uk-position-cover" data-uk-modal></a>
+                    </div><!-- .uk-card-product -->
+                    <div id="kanalizatsiya-item-11" class="uk-modal uk-modal__product">
+                        <div class="uk-modal-dialog uk-modal-dialog-large">
+                            <a class="uk-modal-close uk-close uk-close_product"></a>
+
+                            <div class="modal-product-block modal-product-block__design1">
+                                <img src="images/kanalizatsiya-card-6.jpg" alt="">
+                                <div class="modal-product-content">
+                                    <div class="uk-h3 modal-product-title">Уплотнительное кольцо<br> канализационной трубы</div>
+                                    <p class="modal-product-txt">Отвод применяется для плавного изменения направления
+                                        движения потока жидкости в трубопроводе. Конструктивно имеет раструб под соединение
+                                        с помощью резинового уплотнительного кольца с одной стороны и гладкий конец со
+                                        снятой фаской с другой.</p>
+                                </div>
+                            </div>
+
+                            <div class="modal-product-block modal-product-block__design2">
+                                <img src="images/cart-popup-pic-4.png" alt="">
+                                <div class="modal-product-content">
+                                    <div class="modal-product-title">Тезническое описание</div>
+                                    <p class="modal-product-txt">Нормативный документ: EN 1401.<br>
+                                        Цвет отвода ПВХ: оранжевый<br>
+                                        Диаметр отвода: 110, 160, 200, 250, 315, 400, 500 мм.<br>
+                                        Угол сгиба: 15°, 30°, 45°, 67°, 87°.<br>
+                                        Гарантийный срок хранения: 2 года.<br>
+                                        Срок службы: не менее 50 лет</p>
+                                </div>
+                            </div>
+                            <div class="uk-overflow-container">
+                                <table class="uk-table uk-table-striped">
+                                    <tr>
+                                        <td></td>
+                                        <td>110mm</td>
+                                        <td>160mm</td>
+                                        <td>200mm</td>
+                                        <td>250mm</td>
+                                        <td>315mm</td>
+                                        <td>400mm</td>
+                                        <td>500mm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  15°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 30°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод 45°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  67°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Отвод  87°</td>
+                                        <td>Z1 - 09<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 10<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 11<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 12<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 13<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 14<br>
+                                            Z2 - 15</td>
+                                        <td>Z1 - 15<br>
+                                            Z2 - 15</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="modal-product-footer">
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-1.png" alt="">
+                                    <div class="product-footer-title">Монтаж без специальных средств</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-2.png" alt="">
+                                    <div class="product-footer-title">Устойчивость к коррозии, биообрастанию и значительным отложениям</div>
+                                </div>
+                                <div class="product-footer-item">
+                                    <img src="images/cart-popup-pic-3.png" alt="">
+                                    <div class="product-footer-title">Низкий вес, удобный монтаж</div>
+                                </div>
+                            </div>
+                        </div><!-- .uk-modal-dialog -->
+                    </div><!-- #kanalizatsiya-item-11 -->
                 </div>
+
             </div><!-- .uk-grid -->
         </div><!-- .container-1160 -->
 
