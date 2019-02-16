@@ -133,6 +133,6 @@
         </div>
     </div>
 </div>
-
+<script type='text/javascript' async="async" src='//api-maps.yandex.ru/2.0-stable/?load=package.standard&#038;lang=ru-RU&#038;ver=0.1'></script>
 </body>
 </html>
