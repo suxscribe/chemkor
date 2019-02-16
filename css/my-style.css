@@ -48,6 +48,9 @@ body{
 	 margin-top: 50px;
 	 margin-bottom: 40px;
 }
+.h1-titke.h1-title__resheniya{
+	margin-top: 60px;
+}
 .header-list{
 	list-style: none;
 	padding-left: 0;
@@ -215,6 +218,9 @@ body{
 	line-height: 22px;
 	color: #3C3C3D;
 }
+.card-site-image{
+	height: 200px;
+}
 .card-site-item__resheniya{
 	height: 288px;
 	overflow: hidden;
@@ -225,6 +231,8 @@ body{
 }
 .card-site-image img{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .card-site-title__in-tag{
 	margin-bottom: 20px;
@@ -478,29 +486,22 @@ body{
 .dealer-network .part-1-content-block2{
 	line-height: 21px;
 }
-.yandex-mark{
-	position: absolute;
-	left: 15px;
-	bottom: 15px;
-	color: #000;
-	line-height: 1; 
-	padding: 5px 10px 6px 25px;
-	border: 1px solid #e7e7e7;
-	border-radius: 3px;
-	background-color: #fff;
+.contacts-map{
+	height: 218px;
 }
-.yandex-mark::before{
-	content: '';
-	width: 24px;
-	height: 24px;
+.contacts-map-holder{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.ifreme-contacts-map{
 	position: absolute;
 	top: 0;
-	left: 0;
 	bottom: 0;
-	margin: auto;
-	background-image: url(../images/yandex-mark.jpg);
-	background-repeat: no-repeat;
+	left: 0;
+	right: 0;
 }
+
 .part-2 img{
 	width: 100%;
 	height: 218px;
@@ -656,6 +657,7 @@ body{
 .news-up{
 	position: relative;
 	top: -90px;
+	margin-bottom: -45px;
 }
 .panel_news .uk-grid-margin{
 	margin-top: 18px;
@@ -972,7 +974,9 @@ div.menu-modal-menu a{
 .product-footer-title{
 	height: 68px;
 }
-
+.button-sertifikaty{
+	width: 325px;
+}
 
 
 
@@ -1282,6 +1286,9 @@ div.menu-modal-menu a{
 	.button-sertifikaty{
 		width: 100%;
 	}
+	.contacts-map{
+		height: 100%;
+	}
 }/* END min-width: 768px */
 
 @media (min-width: 965px){
@@ -1495,6 +1502,7 @@ div.menu-modal-menu a{
 	/*}*/
 	.news-up{
 		top: -95px;
+		margin-bottom: 0;
 	}
 	.panel__news-year{
 		padding-left: 0;
@@ -1581,6 +1589,10 @@ div.menu-modal-menu a{
 	}
 	.obsadnyye-title{
 		margin-bottom: 25px;
+	}
+	.button-sertifikaty{
+		width: 336px;
+		margin-bottom: 80px;
 	}
 }/* END min-width: 965px */
 
