@@ -469,7 +469,9 @@ h4, .uk-h4 {
 .header-top-phone-phone a {
 	color: var(--light-grey);
 }
-
+.header-top-phone-phone a:hover, .header-top-phone-phone a:focus {
+	opacity: 0.7;
+}
 .header-top-menu-toggle {
 	display: none;
 	flex: 0 0 auto;
@@ -2172,6 +2174,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	opacity: 0;
 }
 
+/* ==== */
 
 .obsadnyye-add-close {
 	transition: all 0.2s ease;
@@ -2188,4 +2191,36 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	display: flex !important;
 	visibility: visible !important;
 	opacity: 0;
+	z-index: 0;
+}
+
+.part-1-content a[href^="tel:"]:hover {
+	opacity: 0.7;
+}
+
+/*techresheniya*/
+.card-site-item__resheniya {
+	display: flex;
+	flex-direction: column;
+}
+.card-site-line {
+
+	flex: 0 0 auto;
+}
+.card-site-item__resheniya .card-site-title {
+	flex: 0 0 auto;
+}
+.card-site-image {
+	flex: 1 1 auto;
+}
+
+
+.contacts-map {
+	height: 100%;
+}
+.contacts-map-holder {
+	height: 100%;
+}
+.contacts-map-holder > div {
+	height: 100%;
 }

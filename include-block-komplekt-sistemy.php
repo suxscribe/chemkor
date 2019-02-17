@@ -1,6 +1,6 @@
 <div class="uk-container container-1160 uk-margin-large-bottom">
-	<div class="uk-h3 obsadnyye-title">Комплект системы</div>
-	<div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin>
+	<div class="uk-h3 obsadnyye-title" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">Комплект системы</div>
+	<div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
 		<div>
 			<div class="uk-card-product uk-card-product__obsadnyye">
 				<p>Труба ПВХ наружной канализации</p>

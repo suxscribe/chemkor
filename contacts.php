@@ -7,7 +7,7 @@
         </div>
 
         <div class="uk-container container-1160 ">
-            <div class="contacts-panel panel panel_orange ">
+            <div class="contacts-panel panel panel_orange " >
                 <ul class="uk-tab uk-tab-grid uk-tab__contacts" data-uk-switcher="{connect:'#contacts'}">
                     <li class="uk-width-1 uk-width-small-1-1 uk-width-medium-1-3 uk-active"><a href="">Коммерческий отдел</a></li>
                     <li class="uk-width-1 uk-width-small-1-1 uk-width-medium-1-3 "><a href="">Тех. поддержка</a></li>
@@ -19,7 +19,7 @@
         <div class="uk-container container-965 uk-margin-bottom padding-l-r-20 contacts-up">
 
             <div id="contacts" class="uk-switcher">
-                <div class="contacts-block-layout-1">
+                <div class="contacts-block-layout-1 uk-active">
                     <div class="contacts-block-content">
                         <div class="part-1">
                             <div class="uk-h3 part-1-title">Нижний Новгород</div>

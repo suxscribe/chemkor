@@ -1,10 +1,10 @@
 <div class="card-site uk-container container-1160 uk-margin-large-bottom">
-	<div class="uk-h3 obsadnyye-title">
+	<div class="uk-h3 obsadnyye-title" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">
 		Реализованные проекты <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В
 			РАЗДЕЛ</a>
 	</div>
 
-	<div class="uk-flex card-site-content card-site-content__kanalizatsiya">
+	<div class="uk-flex card-site-content card-site-content__kanalizatsiya" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
 		<div class="card-site-item card-site-item__kanalizatsiya">
 			<div class="card-site-line"></div>
 			<div class="card-site-title card-site-title__in-tag">

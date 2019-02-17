@@ -4,19 +4,18 @@
 
         <div class="uk-container container-965">
             <h1 class="block-fullwidth-heading h1-titke h1-title__margin">Технические решения</h1>
-            <p class="resheniya-top-txt uk-text-center">Наша компания ориентирована на выпуск качественной продукции. Благодаря высокому
-                качеству продукции и
+            <p class="resheniya-top-txt uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">Наша компания ориентирована на выпуск качественной продукции. Благодаря высокому качеству продукции и
                 такому немаловажному фактору, влияющему на уровень спроса, как оптимальное соотношение цены и качества,
                 компания значительно расширила рынки сбыта</p>
 
         </div>
 
-        <div class="vertical-line vertical-line_short vertical-line__tekh-header"></div>
+        <div class="vertical-line vertical-line_short vertical-line__tekh-header" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}"></div>
 
         <div class="uk-container container-965 ">
 
-            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-grid-width-large-1-3 card-site-content" data-uk-grid-margin>
-                <div>
+            <div class="uk-grid uk-grid-width-small-1-2 uk-grid-width-large-1-3 card-site-content" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom uk-invisible', target:'> div', delay:250}">
+                <div class="uk-invisible">
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Ливневая канализация</a></div>
@@ -24,7 +23,7 @@
                         <a href="/tr-livnevaya-kanalizatsiya.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div>
+                <div class="uk-invisible">
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Навозоудаление</a></div>
@@ -32,7 +31,7 @@
                         <a href="/tr-navozoudalenie.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div>
+                <div class="uk-invisible">
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Теплицы</a></div>
@@ -40,7 +39,7 @@
                         <a href="/tr-teplica.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div>
+                <div class="uk-invisible">
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Канализация</a></div>
@@ -48,7 +47,7 @@
                         <a href="/tr-kanalizatsiya.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div>
+                <div class="uk-invisible">
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Обсадные трубы</a></div>
@@ -56,7 +55,7 @@
                         <a href="/obsadnyye-truby.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div>
+                <div class="uk-invisible">
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Сбор ливневых стоков</a></div>
@@ -68,15 +67,13 @@
             </div><!-- .uk-grid -->
         </div><!-- .uk-container -->
 
-        <div class="vertical-line vertical-line_short vertical-line__tekh-bottom"></div>
+        <div class="vertical-line vertical-line_short vertical-line__tekh-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}"></div>
 
         <div class="uk-container container-1160 uk-margin-large-bottom">
-            <div class="block-title uk-h3">Каталог продукции <a href=""
-                                                                class="uk-button button_chevron uk-margin-left uk-hidden-small">В
-                    каталог</a></div>
+            <div class="block-title uk-h3" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">Каталог продукции <a href="" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a></div>
 
             <div class="slideset slideset_catalog slideset-count"
-                 data-uk-slideset="{default:2, small:2, medium:2, large:3}">
+                 data-uk-slideset="{default:2, small:2, medium:2, large:3}" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
                 <div class="slideset-nav">
                     <a href="" class="icon-chevron-left" data-uk-slideset-item="previous"></a>
                     <ul class="uk-slideset-nav uk-dotnav uk-flex-center"></ul>
@@ -187,11 +184,11 @@
 
         </div><!-- .uk-container -->
 
-        <div class="vertical-line vertical-line_short"></div>
+        <div class="vertical-line vertical-line_short" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}"></div>
 
         <div class="uk-container container-780 resheniya-562  uk-margin-large-bottom">
-            <p class="resheniya-botton-title uk-text-center">Инженерное сопровождение проектов</p>
-            <p class="resheniya-botton-content">Специалисты компании успешно обеспечивают инженерное сопровождение проектов и комплектацию
+            <p class="resheniya-botton-title uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">Инженерное сопровождение проектов</p>
+            <p class="resheniya-botton-content" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">Специалисты компании успешно обеспечивают инженерное сопровождение проектов и комплектацию
                 трубопроводов фасонными изделиями ведущих зарубежных производителей. АО «ХЕМКОР» в 2012 году начало
                 выпуск широкого ассортимента фасонных изделий для труб ПВХ. Это позволило существенно сократить
                 стоимость трубопроводных систем за счет значительного снижения стоимости фасонных изделий, а также

@@ -2,16 +2,7 @@
 
 <main>
 
-	<!-- <div class="block-fullwidth block_title	">
-	
-		<div class="block-fullwidth-content uk-container">
-			<h1>Компания</h1>
-			<div class="block-title-links">
-	
-			</div>
-		</div>
-	
-	</div> -->
+
 <div class="block block_slideshow-solutions">
 	<div class="slideshow slideshow_solutions" data-uk-slideshow>
 				
@@ -67,10 +58,8 @@
 			</ul> / <span class="overall">6</span>
 			<a href="" class="icon-chevron-right" data-uk-slideshow-item="next"></a>
 
-
 		</div>
 				
-
 	</div>
 </div>
 
@@ -193,16 +182,12 @@
 					</li>
 
 				</ul>
-
-				
 				
 			</div>
-
 			
 		</div>
 
 		<a href="" class="uk-button button_chevron uk-margin-top uk-visible-small uk-width-1-1">В каталог</a>
-
 		
 	</div>
 

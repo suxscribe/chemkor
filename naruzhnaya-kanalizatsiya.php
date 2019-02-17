@@ -11,7 +11,7 @@
                 <h1 class="block-fullwidth-heading h1-titke">Наружная канализация</h1>
 
                 <div class="uk-container ">
-                    <ul class="header-list header-list__kanalizatsiya uk-column-1-1 uk-column-medium-1-3">
+                    <ul class="header-list header-list__kanalizatsiya uk-column-1-1 uk-column-medium-1-3" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">
                         <li class="header-item">
                             <a href="">
                                 <div class="header-item-icon">
@@ -68,16 +68,16 @@
 
 
         <div class="uk-container block-header-preview uk-margin-bottom ">
-            <div class="panel panel_orange panel_introtext uk-text-center uk-position-z-index">
+            <div class="panel panel_orange panel_introtext uk-text-center uk-position-z-index" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
                 <p>Трубы из ПВХ предназначены для строительства трубопроводов безнапорной подземной наружной
                     канализации: хозяйственно-бытовой канализации, дренажа и водоотведения, ливневой канализации,
                     отведения промышленных стоков, к которым материал трубопровода является химически стойким.</p>
             </div>
-            <div class="vertical-line vertical-line__header uk-position-z-index"></div>
+            <div class="vertical-line vertical-line__header uk-position-z-index" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}"></div>
         </div><!-- .uk-container -->
 
         <div class="uk-container container-1160 uk-margin-large-bottom">
-            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product uk-block-product__naruzhnayaK" data-uk-grid-margin>
+            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product uk-block-product__naruzhnayaK" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:1000}">
 
                 <div>
                     <div class="uk-card-product">
@@ -1744,13 +1744,13 @@
         </div><!-- .container-1160 -->
 
         <div class="card-site uk-container container-1160 uk-margin-large-bottom">
-            <div class="block-title uk-h3">
+            <div class="block-title uk-h3" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">
                 Технические решения <a href=""
                                        class="uk-button button_chevron button_chevron__warning uk-margin-left uk-hidden-small">В
                     РАЗДЕЛ</a>
             </div>
 
-            <div class="uk-flex card-site-content card-site-content__kanalizatsiya">
+            <div class="uk-flex card-site-content card-site-content__kanalizatsiya" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
                 <div class="card-site-item card-site-item__kanalizatsiya">
                     <div class="card-site-line"></div>
                     <div class="card-site-title"><a href="">Ливневая канализация</a></div>

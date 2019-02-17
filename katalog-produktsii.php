@@ -11,7 +11,7 @@
                 <h1 class="block-fullwidth-heading h1-titke h1-title__katalog">Каталог продукции</h1>
 
                 <div class="uk-container ">
-                    <ul class="header-list header-list__katalog uk-column-1-1 uk-column-medium-1-2">
+                    <ul class="header-list header-list__katalog uk-column-1-1 uk-column-medium-1-2" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">
                         <li class="header-item">
                             <a href="">
                                 <div class="header-item-icon">
@@ -48,8 +48,8 @@
         </div><!-- .block-fullwidth -->
 
         <div class="uk-container container-1160 uk-margin-large-bottom katalog-container">
-            <div class="vertical-line vertical-line__katalog-top"></div>
-            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product uk-block-product__katalog" data-uk-grid-margin>
+            <div class="vertical-line vertical-line__katalog-top" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}"></div>
+            <div class="uk-grid uk-grid-width uk-grid-width-small-1-2 uk-block-product uk-block-product__katalog" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">
                 <div>
                     <div class="uk-card-product">
                         <p>Напорные трубы</p>
@@ -101,15 +101,15 @@
             </div><!-- .uk-grid -->
         </div><!-- .container-1160 -->
 
-        <div class="vertical-line vertical-line_short"></div>
+        <div class="vertical-line vertical-line_short" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}"></div>
 
         <div class="uk-container container-780 uk-margin-large-bottom">
             <div class="panel uk-text-center">
-                <div class="panel_company-50">50+</div>
-                <div class="uk-h3 uk-container-center uk-katalog-title uk-margin-bottom">Срок эксплуатации более 50
+                <div class="panel_company-50" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">50+</div>
+                <div class="uk-h3 uk-container-center uk-katalog-title uk-margin-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">Срок эксплуатации более 50
                     лет
                 </div>
-                <p class="uk-margin-bottom uk-katalog-txt">Исследования показывают, что благодаря лучшим гидравлическим
+                <p class="uk-margin-bottom uk-katalog-txt" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:1000}">Исследования показывают, что благодаря лучшим гидравлическим
                     свойствам, срок
                     эксплуатации первых труб ПВХ к настоящему моменту достигает 80 лет </p>
             </div>
@@ -119,8 +119,8 @@
 
 
             <div class="panel panel_white panel__katalog">
-                <div class="vertical-line vertical-line__katalog-bottom"></div>
-                <div class="uk-column-large-1-2">
+                <div class="vertical-line vertical-line__katalog-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}"></div>
+                <div class="uk-column-large-1-2" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
                     <div class="katalog-block">
                         <div class="uk-h3 uk-katalog-title">Экологическая безопасность</div>
                         <p class="uk-katalog-txt">Не оказывает воздействия на человеческий организм и окружающую среду,

@@ -8,9 +8,9 @@
         </div>
 
         <div class="uk-container container-1304">
-            <div class="panel panel_orange panel__news-year">
+            <div class="panel panel_orange panel__news-year" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">
 
-                <ul class="uk-tab uk-tab-grid news-year-block nicescroll-box" data-uk-switcher="{connect:'#contacts'}">
+                <ul class="uk-tab uk-tab-grid news-year-block nicescroll-box" data-uk-switcher="{connect:'#contacts'}" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
                     <li class="uk-active"><a href="">ВСЕ</a></li>
                     <li><a href="">2019</a></li>
                     <li><a href="">2018</a></li>
@@ -33,7 +33,7 @@
             <div id="contacts" class="uk-switcher">
 
                 <div class="panel panel_news">
-                    <div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin>
+                    <div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">
 
                         <div>
                             <div class="news-item news-item_teaser">

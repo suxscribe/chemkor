@@ -4,11 +4,11 @@
 
         <div class="uk-container container-965 uk-margin-large-bottom">
             <h1 class="block-fullwidth-heading h1-titke">Обсадные трубы </h1>
-            <p class="uk-h3 resheniya-top-txt uk-text-center">Бытовые скважины – обсадные трубы, которые не влияют на вкус
+            <p class="uk-h3 resheniya-top-txt uk-text-center" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">Бытовые скважины – обсадные трубы, которые не влияют на вкус
                 воды.</p>
         </div>
 
-        <div class="uk-container container-1160 uk-margin-large-bottom uk-position-relative">
+        <div class="uk-container container-1160 uk-margin-large-bottom uk-position-relative" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
 
             <ul class="uk-tab uk-tab-grid uk-tab__obsadnyye" data-uk-switcher="{connect:'#obsadnyye'}">
                 <li class="uk-width-1-2 uk-active"><a href="">Бытовая скважина</a></li>
@@ -69,9 +69,9 @@
         </div><!-- .uk-container -->
 
         <div class="uk-container container-1160 uk-margin-large-bottom padding-l-r-20">
-            <div class="uk-h3 obsadnyye-title">Конструкция</div>
+            <div class="uk-h3 obsadnyye-title" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:250}">Конструкция</div>
 
-            <div class="uk-grid uk-grid-width uk-grid-width-medium-1-2 uk-grid-width-large-1-3 design-block-1" data-uk-grid-margin>
+            <div class="uk-grid uk-grid-width uk-grid-width-medium-1-2 uk-grid-width-large-1-3 design-block-1" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
                 <div>
                     <div class="design-content-1">
                         <p class="design-content-1-img">

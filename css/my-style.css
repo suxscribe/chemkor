@@ -1130,7 +1130,8 @@ div.menu-modal-menu a{
 		width: 100%;
 	}
 	.contacts-block-layout-1 .part-1{
-		flex-basis: 63%;
+		flex-basis: 64%;
+		box-sizing: border-box;
 		padding-right: 0;
 	}
 	.part-1-title{
@@ -1160,7 +1161,8 @@ div.menu-modal-menu a{
 		flex-basis: 61%;
 	}
 	.contacts-block-layout-1 .part-2{
-		flex-basis: 34%;
+		flex-basis: 36%;
+		box-sizing: border-box;
 	}
 	.tel-number{
 		flex-basis: 100%;
