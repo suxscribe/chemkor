@@ -17,7 +17,7 @@
 						
 						<div class="slideshow_solutions-item-subtitle">Технические решения</div>
 						<div class="slideshow_solutions-item-content">
-							<div class="slideshow_solutions-item-title">Ливневая канализация</div>
+							<div class="slideshow_solutions-item-title"><a href="">Ливневая канализация</a></div>
 							<div class="slideshow_solutions-item-text">Ливневая канализация состоит из различных труб, сифонов, заглушек и т.д. Эти элементы включены в ее схему и при установке учитываются в строгом порядке.</div>
 							<div class="slideshow_solutions-item-button"><a href="tekh-resheniya.php" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
 						</div>
@@ -35,7 +35,7 @@
 						<div class="slideshow_solutions-item">
 							<div class="slideshow_solutions-item-subtitle">Технические решения</div>
 							<div class="slideshow_solutions-item-content">
-								<div class="slideshow_solutions-item-title">Ливневая канализация</div>
+								<div class="slideshow_solutions-item-title"><a href="">Ливневая канализация</a></div>
 								<div class="slideshow_solutions-item-text">Ливневая канализация состоит из различных труб, сифонов, заглушек и т.д. Эти элементы включены в ее схему и при установке учитываются в строгом порядке.</div>
 								<div class="slideshow_solutions-item-button"><a href="tekh-resheniya.php" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
 							</div>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 			<div class="uk-width-large-1-3" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
-				<div class="panel panel_bg panel_techinfo">
+				<div class="panel panel_bg panel_techinfo" data-uk-check-display>
 					<img class="panel_bg-img" src="images/panel-bg.jpg" alt="">
 					<div class="panel-content" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:750}">
 						<div class="panel_techinfo-title uk-h3 text-white">Техническая информация</div>

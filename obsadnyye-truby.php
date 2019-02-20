@@ -17,7 +17,8 @@
 
             <div id="obsadnyye" class="uk-switcher uk-margin-minus">
                 <div class="obsadnyye-block">
-                    <img src="images/obsadnyye-truby-pic-full.jpg" alt="obsadnyye-truby-pic-full">
+                    <img src="images/obsadnyye-truby-pic-full-crop.jpg" class="obsadnyye-truby-pic-full pic-crop">
+                    <img src="images/obsadnyye-truby-pic-full-crop.jpg" class="obsadnyye-truby-pic-full pic-responsive">
 
                     <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:20%;left:50%;">
                         <button class="uk-button button-obsadnyye icon-plus" type="button" data-uk-toggle="{target:'#obsadnyye-info1'}"></button>

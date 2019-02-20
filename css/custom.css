@@ -576,6 +576,13 @@ h4, .uk-h4 {
 	font-size: 50px;
 	line-height: 50px;
 }
+.slideshow_solutions-item-title a {
+	color: #fff;
+	transition: opacity 0.2s ease;
+}
+.slideshow_solutions-item-title a:hover, .slideshow_solutions-item-title a:focus {
+	opacity: 0.8;
+}
 .slideshow_solutions-item-text {
 	flex: 1 1 auto;
 	font-size: 18px;
@@ -2194,10 +2201,31 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	z-index: 0;
 }
 
+@media (max-width: 959px) {
+	.pic-crop {
+		display: none;
+	}
+	.pic-responsive {
+		display: block;
+	}
+}
+@media (min-width: 960px) {
+	.pic-crop {
+		display: block;
+	}
+	.pic-responsive {
+		display: none;
+	}
+}
+
+
 .part-1-content a[href^="tel:"]:hover {
 	opacity: 0.7;
 }
 
+.uk-tab > li.uk-open:not(.uk-active) > a, .uk-tab > li:not(.uk-active) > a:focus, .uk-tab > li:not(.uk-active) > a:hover {
+	margin-bottom: 0;
+}
 /*techresheniya*/
 .card-site-item__resheniya {
 	display: flex;

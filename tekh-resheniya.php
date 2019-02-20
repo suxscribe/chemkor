@@ -12,55 +12,55 @@
 
         <div class="vertical-line vertical-line_short vertical-line__tekh-header" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}"></div>
 
-        <div class="uk-container container-965 ">
+        <div class="uk-container container-965 " data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">
 
-            <div class="uk-grid uk-grid-width-small-1-2 uk-grid-width-large-1-3 card-site-content" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom uk-invisible', target:'> div', delay:250}">
-                <div class="uk-invisible">
+            <div class="uk-grid uk-grid-width-small-1-2 uk-grid-width-large-1-3 card-site-content" data-uk-grid-margin >
+                <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Ливневая канализация</a></div>
                         <div class="card-site-image"><img src="images/tr-livnevka_dom.jpg" alt=""></div>
-                        <a href="/tr-livnevaya-kanalizatsiya.php" class="uk-position-cover"></a>
+                        <a href="tr-livnevaya-kanalizatsiya.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div class="uk-invisible">
+                <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Навозоудаление</a></div>
                         <div class="card-site-image"><img src="images/tr-novozoudalenie.jpg" alt=""></div>
-                        <a href="/tr-navozoudalenie.php" class="uk-position-cover"></a>
+                        <a href="tr-navozoudalenie.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div class="uk-invisible">
+                <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Теплицы</a></div>
                         <div class="card-site-image"><img src="images/tr-teplica.jpg" alt=""></div>
-                        <a href="/tr-teplica.php" class="uk-position-cover"></a>
+                        <a href="tr-teplica.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div class="uk-invisible">
+                <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Канализация</a></div>
                         <div class="card-site-image"><img src="images/tr-kanalizacia_naruzgnyaya.jpg" alt=""></div>
-                        <a href="/tr-kanalizatsiya.php" class="uk-position-cover"></a>
+                        <a href="tr-kanalizatsiya.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div class="uk-invisible">
+                <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Обсадные трубы</a></div>
                         <div class="card-site-image"><img src="images/tr-obsadnie.jpg" alt=""></div>
-                        <a href="/obsadnyye-truby.php" class="uk-position-cover"></a>
+                        <a href="obsadnyye-truby.php" class="uk-position-cover"></a>
                     </div>
                 </div>
-                <div class="uk-invisible">
+                <div>
                     <div class="card-site-item card-site-item__309 card-site-item__resheniya">
                         <div class="card-site-line"></div>
                         <div class="card-site-title"><a href="">Сбор ливневых стоков</a></div>
                         <div class="card-site-image"><img src="images/tr-livnevka_tc.jpg" alt=""></div>
-                        <a href="/tr-sbor-livnevyh.php" class="uk-position-cover" ></a>
+                        <a href="tr-sbor-livnevyh.php" class="uk-position-cover" ></a>
                     </div>
                 </div>
 
