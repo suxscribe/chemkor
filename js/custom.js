@@ -2,7 +2,7 @@
 jQuery(document).ready(function() {
 
 
-
+	//сдвиг лейбла при фокусе на форме
 	$('.input_field').each(function(){
 	    var $this = $(this);
 	    if ($this.val() == '') {
@@ -20,6 +20,10 @@ jQuery(document).ready(function() {
 	        $this.addClass('input_filled');
 	    }
 	});
+
+
+
+
 
 	$('.slideset .uk-slideset-nav > li > a').each(function(index, el) {
 		$(this).html(index+1);		
