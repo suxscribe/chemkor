@@ -79,7 +79,14 @@
     })
 
     $('td').on('mouseover mouseout', function () {
-      $(this).prevAll().addBack().add($(this).parent().prevAll().children(':nth-child(' + ($(this).index() + 1) + ')')).toggleClass('hover-table')
+      $(this).
+        prevAll().
+        addBack().
+        add($(this).
+          parent().
+          prevAll().
+          children(':nth-child(' + ($(this).index() + 1) + ')')).
+        toggleClass('hover-table')
     })//для табличек
 
     $(function () {
@@ -102,7 +109,79 @@
 
     })//nicescroll
 
-    ymaps.ready(init);
+    $('.request-content > input').on('input', function () {
+      var $this = $(this)
+      if ($this.val() == '') {
+        $this.removeClass('input-active')
+        console.log('pipka-false-input');
+      }
+      else {
+        $this.addClass('input-active')
+        console.log('pipka-true-input');
+      }
+    })//animation labrl
+
+    $('.request-content > textarea').on('textarea', function () {
+      var $this = $(this)
+      if ($this.val() == '') {
+        $this.removeClass('input-active');
+        //console.log('pipka-false-textarea');
+        console.log($this);
+      }
+      else {
+        $this.addClass('input-active')
+        //console.log('pipka-true-textarea')
+        console.log($this);
+      }
+    })
+
+    $(function () {
+      var $phone = $('input.request-input-tel')
+      $phone.each(function () {
+        $(this).
+          inputmask('+7 (999) 999-99-99', {autoclear: false, showMaskOnHover: false}).removeAttr('required')
+          .parent('.request-content').
+          addClass('form-phone_wrap').
+          append('<p class=\'form-phone_error\'></p>')
+      })
+      var errorTextNoPhone = 'Укажите номер телефона',
+        errorText = 'Введите номер телефона'
+      $phone.on('input', function () {
+        var $this = $(this)
+        if ($this.val().substr($this.val().length - 1) !== '_' &&
+          $this.val().substr($this.val().length - 1) !== '' &&
+          $this.val().substr($this.val().length - 1) !== ' ') {
+          $this.addClass('succes')
+        }
+        else {
+          $this.removeClass('succes')
+        }
+      })
+      $phone.focusout(function () {
+        if ($(this).val().length > 0 && !$(this).hasClass('succes')) {
+          $(this).
+            addClass('error-border').
+            siblings('.form-phone_error').
+            text(errorText)
+          $(this).parent().addClass('error')
+        }
+      })
+      $phone.keyup(function (e) {
+        $(this).siblings('.form-phone_error').text(' ')
+        $(this).removeClass('error-border').parent().removeClass('error')
+      })
+      $phone.keyup(function (event) {
+        if (event.keyCode == 13) {
+          $(this).
+            addClass('error-border').
+            siblings('.form-phone_error').
+            text(errorText)
+
+        }
+      })
+    })/* inout mask phone */
+
+    ymaps.ready(init)
 
     function init () {
       var myMap = new ymaps.Map('frontpage-map', {
