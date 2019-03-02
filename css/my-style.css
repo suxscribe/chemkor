@@ -1207,7 +1207,7 @@ div.menu-modal-menu a{
 	}
 	.uk-tab__contacts > li.uk-active > a{
 		border-bottom: 4px solid black;
-		border-color: black;
+		border-color: var(--black);
 	}
 	.uk-tab__obsadnyye{
 		width: 460px;

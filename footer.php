@@ -97,6 +97,7 @@
                 <li><a href="">Документация</a></li>
                 <li><a href="">Пресс-центр</a></li>
                 <li><a href="contacts.php">Контакты</a></li>
+                <li><a href="">ENGLISH</a></li>
             </ul>
         </div>
 

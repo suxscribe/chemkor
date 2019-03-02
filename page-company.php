@@ -82,25 +82,44 @@
 	<div class="uk-container container-1160"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
 		<div class="panel panel_white company-history-content">
 			<div class="uk-h3 uk-margin-bottom">Этапы развития</div>
-			<div class="uk-grid uk-grid-width-large-1-3">
-				<div>
-					<div class="company-history-item">
-						<div class="company-history-item-year" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:750}"><span>2007</span></div>
-						<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
+			<div class="uk-slidenav-position company-history-slider" data-uk-slider>
+				<div class="uk-slider-container">
+					<div class="uk-slider uk-grid uk-grid-width-large-1-3" >
+						<div>
+							<div class="company-history-item">
+								<div class="company-history-item-year" ><span>2007</span></div>
+								<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
+							</div>
+						</div>
+						<div>
+							<div class="company-history-item">
+								<div class="company-history-item-year" ><span>2007</span></div>
+								<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
+							</div>
+						</div>
+						<div>
+							<div class="company-history-item">
+								<div class="company-history-item-year" ><span>2007</span></div>
+								<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
+							</div>
+						</div>
+						<div>
+							<div class="company-history-item">
+								<div class="company-history-item-year" ><span>2007</span></div>
+								<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
+							</div>
+						</div>
+						<div>
+							<div class="company-history-item">
+								<div class="company-history-item-year" ><span>2007</span></div>
+								<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div>
-					<div class="company-history-item">
-						<div class="company-history-item-year" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:1000}"><span>2007</span></div>
-						<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
-					</div>
-				</div>
-				<div>
-					<div class="company-history-item">
-						<div class="company-history-item-year" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:1250}"><span>2007</span></div>
-						<div class="company-history-item-text">В декабре 2007 на производственной базе ООО «Корунд» создается ЗАО «ХЕМКОР». В это время завод, бывший в СССР крупнейшим изготовителем ПВХ-труб, производил не более 4 тыс.т труб в год.</div>
-					</div>
-				</div>
+				<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+				<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+
 			</div>
 		</div>
 	</div>

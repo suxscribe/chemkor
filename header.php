@@ -51,7 +51,7 @@
 	<header class="header-top" data-uk-sticky="{media: 960}">
 		<div class="header-top-logo">
 			<div class="logo-sign">
-				<a href="./"><img src="images/logo.svg" alt=""></a>
+				<a href="./"><img src="images/logo.svg" alt=""><!-- <span>Производитель труб из ПВХ</span> --></a>
 			</div>
 			<div class="logo-text"></div>
 		</div>
@@ -63,6 +63,8 @@
 					<ul class="uk-nav uk-nav-navbar">
 						<li><a href="page-company.php">Компания</a></li>
 						<li><a href="news.php">Новости</a></li>
+						<li><a href="">Пресс-центр</a></li>
+
 						<li><a href="page-production.php">Производство</a></li>
 						<li><a href="page-laboratory.php">Лаборатория</a></li>
 					</ul>
@@ -86,8 +88,20 @@
 
 			</li>
 			<li><a href="realizovannyye-proyekty.php">Проекты</a></li>
-			<li><a href="">Документация</a></li>
-			<li><a href="">Пресс-центр</a></li>
+
+			<li class="uk-parent" data-uk-dropdown>
+				<a href="">Документация</a>
+
+				<div class="uk-dropdown uk-dropdown-navbar">
+					<ul class="uk-nav uk-nav-navbar">
+						<li><a href="sertifikaty.php">Сертификаты</a></li>
+						<li><a href="">Нормативные документы</a></li>
+						<li><a href="">Техническая информация</a></li>
+					</ul>
+				</div>
+
+			</li>
+
 			<li><a href="contacts.php">Контакты</a></li>
 		</ul>
 		<div class="header-top-phone">
@@ -123,6 +137,9 @@
 		</div>
 		<div class="header-top-search">
 			<a class="icon-search" href="#modal-search" data-uk-modal></a>
+		</div>
+		<div class="header-top-lang">
+			<a href="">ENG</a> <!-- ENG / RUS -->
 		</div>
 		<div class="header-top-menu-toggle">
 			<a href="#menu" class="z-navbar-toggle" data-uk-modal><span></span></a>

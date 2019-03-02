@@ -32,28 +32,9 @@
 
 	<div class="uk-container container-965 uk-margin-large-bottom">
 
-		<div class="certificate-list uk-grid uk-margin-large-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom uk-invisible', target:'> div', delay:250}">
-			<div class="uk-invisible">
-				<div class="certificate-item">
-					<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
-					<div class="certificate-item-desc">Общие требования к компетентности испытательных и калибровочных лабораторий</div>
-					<div class="certificate-item-overlay">
-						<img src="images/certificate-teaser.jpg" alt="">
-					</div>
-					<a href="images/certificate-full.jpg" class="uk-position-cover" data-uk-lightbox></a>
-				</div>
-			</div>
-			<div class="uk-invisible">
-				<div class="certificate-item">
-					<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
-					<div class="certificate-item-desc">Общие требования к компетентности испытательных и калибровочных лабораторий</div>
-					<div class="certificate-item-overlay">
-						<img src="images/certificate-teaser.jpg" alt="">
-					</div>
-					<a href="images/certificate-full.jpg" class="uk-position-cover" data-uk-lightbox></a>
-				</div>
-			</div>
-			<div class="uk-invisible">
+		<div class="certificate-list uk-flex uk-margin-large-bottom" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:250}">
+			
+			<div class="">
 				<div class="certificate-item">
 					<div class="certificate-item-title">Стандарт организации СТО 62106559-001-2017</div>
 					<div class="certificate-item-desc">Общие требования к компетентности испытательных и калибровочных лабораторий</div>
@@ -65,9 +46,9 @@
 			</div>
 		</div>
 
-		<div class="uk-text-center"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
+		<!-- <div class="uk-text-center"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
 			<a href="" class="uk-button button_chevron button_small-width-1 button_medium">Все сертификаты</a>
-		</div>
+		</div> -->
 		<div class="vertical-line vertical-line_short vertical-line_m30"></div>
 	</div>
 

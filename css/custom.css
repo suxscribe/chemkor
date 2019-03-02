@@ -165,7 +165,11 @@ user-select: none;
 	margin: 0 auto;
 }
 
-
+@media (min-width: 1280px) and (max-width: 1360px) {
+	.container-1304 {
+		padding: 0 25px;
+	}
+}
 
 
 .uk-container-expand {
@@ -292,7 +296,7 @@ h4, .uk-h4 {
 
 .header-top {
 	background: var(--darkbg);
-	min-height: 88px;
+	min-height: 80px;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
@@ -304,13 +308,22 @@ h4, .uk-h4 {
 
 .header-top-logo {
 	flex:0 0 auto;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 .header-top-logo-sign {
 	width: 143px;
 }
+.logo-sign span {
+	font-size: 12px;
+	display: block;
+	color: #D5D5D5;
+	opacity: 0.6;
+	line-height: 16px;
+}
+
 .header-top-nav {
 	flex: 1 0 auto;
+	display: flex;
 }
 
 .header-top.uk-active {
@@ -353,13 +366,14 @@ h4, .uk-h4 {
 	color: var(--orange);
 	display: inline-block;
 	transform: rotate(90deg);
-	margin-left: 15px;
+	margin-left: 6px;
 	font-size: 8px;
 	font-weight: 400;
 }
 .uk-dropdown {
 	/*padding-top: 0px;*/
 	/*padding-bottom: 0px;*/
+	width: 210px;
 }
 .uk-dropdown .uk-nav li a {
 	color: var(--black);
@@ -479,7 +493,7 @@ h4, .uk-h4 {
 
 .header-top-phone-sign {
 	margin-right: 20px;
-	font-size: 30px;
+	font-size: 18px;
 	color: var(--text);
 }
 .header-top-phone-sign:hover, .header-top-phone-sign:focus {
@@ -510,7 +524,7 @@ h4, .uk-h4 {
 	opacity: 0.7;
 }
 .header-top-search .icon-search {
-	font-size: 28px;
+	font-size: 26px;
 	color: var(--light-grey);
 	margin: 0 20px;
 	line-height: 34px;
@@ -519,6 +533,16 @@ h4, .uk-h4 {
 	color: var(--text);
 	text-decoration: none;
 
+}
+
+.header-top-lang a {
+	color: var(--light-grey);
+	font-family: "Proxima Nova";
+	font-size: 11px;
+	line-height: 27px;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	text-transform: uppercase;
 }
 
 /* TITLE*/
@@ -710,6 +734,8 @@ h4, .uk-h4 {
 
 .panel_techinfo {
 	padding: 37px 48px;
+	box-sizing: border-box;
+	height: 100%;
 }
 
 .panel_techinfo-icon {
@@ -1220,6 +1246,33 @@ h4, .uk-h4 {
 	line-height: 21px;
 }
 
+.company-history-slider .uk-slidenav {
+	height: 104px !important;
+}
+.company-history-slider .uk-slidenav-next {
+	right: -50px;
+}
+.company-history-slider .uk-slidenav-previous {
+	left: -50px;
+}
+.company-history-slider .uk-slidenav::before {
+	background: none;
+	color: var(--text);
+}
+
+@media (max-width: 959px) {
+	.company-history-slider .uk-slidenav {
+		display: none !important;
+	}
+	.company-history-content .uk-slider > * {
+		position: static;
+	}
+	.company-history-content .uk-slider {
+		transform: none !important;
+		min-width: 0 !important;
+	}
+}
+
 /* GEOGRAPHY */
 
 .panel_geography {
@@ -1281,7 +1334,8 @@ h4, .uk-h4 {
 .certificate-list {
 	
 	flex-wrap: nowrap;
-	margin-right: -25px;
+	justify-content: center;
+	/*margin-right: -25px;*/
 }
 
 .certificate-list > div {
@@ -1697,11 +1751,11 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 
 /* SEARCH */
 #modal-search {
-
+	background: none;
 }
 .modal_search {
-	padding: 52px 0;
-	background: var(--dark-grey);
+	padding: 52px 0 80px 0;
+	background: var(--black);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1716,6 +1770,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	min-width: 600px;
 	font-weight: 300;
 	font-family: RussoOne;
+	color: rgba(255,255,255,0.4);
 }
 .modal-search-box input[type="submit"] {
 	background: none;
@@ -1779,10 +1834,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 /*  RESPONSIVE */
 @media (max-width: 1366px) {
 	.slideshow_solutions-bg {
-		height: 240px;
+		height: 400px;
 	}
 	.slideshow_solutions .slideshow-nav {
-		top: 132px;
+		top: 292px;
 	}
 }
 
@@ -1792,7 +1847,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 }
 
-@media (max-width: 1219px) {
+@media (max-width: 1210px) {
 	.header-top-nav {
 		display: none;
 	}
@@ -1801,6 +1856,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 	.header-top-logo {
 		flex:1 0 auto;
+	}
+	.header-top-lang {
+		display: none;
 	}
 
 }
@@ -1829,6 +1887,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 
 @media (max-width: 959px) {
+	.header-top-phone-sign {
+		font-size: 30px;
+	}
 	.panel_slideshow {
 		padding: 38px 28px 58px 28px;
 	}
@@ -2251,4 +2312,16 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 }
 .contacts-map-holder > div {
 	height: 100%;
+}
+
+
+/**/
+@media (min-width: 768px) {
+	
+	.h1-title__katalog {
+		margin-top: 80px !important;
+	}
+	.header-list__katalog {
+		margin-bottom: -30px !important;
+	}
 }
