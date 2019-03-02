@@ -34,7 +34,7 @@
                 </div><!--.obsadnyye-block -->
 
                 <div class="obsadnyye-block">
-                    <img src="images/tr-livnevka_dorogi.jpg" alt="obsadnyye-truby-pic-full">
+                    <img src="images/tr-livnevka_tc.jpg" alt="obsadnyye-truby-pic-full">
 
                     <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:59%;left:55%;">
                         <button class="uk-button button-obsadnyye icon-plus" type="button" data-uk-toggle="{target:'#obsadnyye-info2'}"></button>

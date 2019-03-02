@@ -16,7 +16,7 @@
 
             <div id="obsadnyye" class="uk-switcher uk-margin-minus ">
                 <div class="obsadnyye-block">
-                    <img src="images/tr-livnevka_tc.jpg" alt="obsadnyye-truby-pic-full">
+                    <img src="images/tr-livnevka_dorogi.jpg" alt="obsadnyye-truby-pic-full">
                     <div class="obsadnyye-add uk-hidden-small uk-hidden-medium" style="top:40%;left:35%;">
                         <button class="uk-button button-obsadnyye icon-plus " type="button" data-uk-toggle="{target:'#obsadnyye-info'}"></button>
                         <div id="obsadnyye-info" class="uk-hidden obsadnyye-add-content" style="top:80px;left:30px;">
