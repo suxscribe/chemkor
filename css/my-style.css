@@ -214,6 +214,9 @@ body{
 	line-height: 22px;
 	color: #3C3C3D;
 }
+.card-site-title a:hover, .card-site-title a:focus {
+	opacity: 0.8;
+}
 .card-site-image{
 	height: 200px;
 }

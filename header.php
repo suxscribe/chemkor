@@ -25,6 +25,7 @@
 
 	<link rel="stylesheet" href="css/uikit.min.css">
 	<link rel="stylesheet" href="css/components/slideshow.min.css">
+	<link rel="stylesheet" href="css/components/accordion.min.css">
 	<link rel="stylesheet" href="css/components/dotnav.min.css">
 	<link rel="stylesheet" href="css/components/slidenav.min.css">
 	<link rel="stylesheet" href="css/components/slider.min.css">
@@ -36,6 +37,7 @@
 
 	<script src="js/uikit.min.js"></script>
 	<script src="js/components/slideshow.js"></script>
+	<script src="js/components/accordion.js"></script>
 	<script src="js/components/slider.js"></script>
 	<script src="js/components/slideset.js"></script>
 	<script src="js/components/sticky.js"></script>
@@ -43,6 +45,9 @@
 	<script src="js/jquery.inputmask.js"></script>
 	<script src="js/jquery.nicescroll.min.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/raphael-min.js"></script>
+	<script src="js/russian-map.js"></script>
+
 	<script src="js/custom.js"></script>
 	<script src="js/my-script.js"></script>
 </head>

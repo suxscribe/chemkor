@@ -83,7 +83,7 @@ jQuery(document).ready(function() {
 	$('.slideset-nav-overall').html($('.slideset .uk-slideset-nav > li > a').length);
 
 
-	$('#form-modal-search input[type=text]').each(function(index, el) {
+	$('#form-modal-search input[type=text], .form-search input[type=text]').each(function(index, el) {
 		if ($(this).val() == '') {
 		    $(this).next('button').addClass('uk-hidden');
 		} else {
@@ -91,8 +91,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
-	$('#form-modal-search input[type=text]').on('input', function() {
+	$('#form-modal-search input[type=text], .form-search input[type=text]').on('input', function() {
 		if ($(this).val() == '') {
 		    $(this).next('button').addClass('uk-hidden');
 		} else {
@@ -105,6 +104,10 @@ jQuery(document).ready(function() {
 		$(this).addClass('uk-hidden');
 		e.preventDefault();
 	});
+
+
+
+
 
 	var slider = $('#slider');
 	var slider_current = $(slider).find('.slider-nav-current');
@@ -144,9 +147,14 @@ jQuery(document).ready(function() {
 	});
 
 
-// 
+// https://tech.yandex.ru/maps/jsbox/2.1/regions_pattern
 
 
+	$('.map-item').on('click', function () {
+		if ($(this).hasClass('uk-active')) {
+			
+		}
+	})
 
 
 });

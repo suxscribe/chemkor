@@ -191,6 +191,123 @@
 		
 	</div>
 
+	<div class="container-1160  uk-container uk-margin-large-bottom">
+		<div class="panel panel_white block_map">
+			<div class="uk-grid">
+				<div class="uk-width-medium-3-5">
+					<h3>Карта присутствия</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quis, ut officiis inventore? Aut recusandae laboriosam maiores in, dolores earum deserunt at, explicabo fugiat perferendis quod autem sunt dolor voluptate.</p>
+
+					<script>
+					        // запрос на получение json регионов
+					        window.onload = function() {
+					            fetch('js/with-regions.json').then(function(response) {
+					                response.json().then(function(data) {
+					                    new RussianMap({
+					                        viewPort: data.viewPort,
+					                        mapId: 'map',
+					                        width: 800,
+					                        height: 520,
+					                        // дефолтовые атрибуты для контуров регионов
+					                        defaultAttr: {
+					                        		fill: '#d8d8d8', // цвет которым закрашивать
+					                            stroke: '#ffffff', // цвет границы
+					                            'stroke-width': 1, // ширина границы
+					                            'stroke-linejoin': 'round' // скруглять углы
+					                        },
+					                        /*mouseMoveAttr: {
+					                            fill: '#25669e'
+					                        },*/
+					                        onMouseMove: function(event) {
+					                            console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
+					                            $('.map-item-title[data-region="' + this.region.ident + '"').addClass('active');
+					                        },
+					                        onMouseOut: function(event) {
+					                            console.log('out on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
+					                            $('.map-item-title[data-region="' + this.region.ident + '"').removeClass('active');
+					                        },
+					                        onMouseClick: function(event) {
+					                            console.log('clicked on ' + this.region.name);
+					                            // console.log(this);
+					                            $('#map path').removeClass('clicked');
+					                            var map_item = $('.map-item-title[data-region="' + this.region.ident + '"');
+					                            if (map_item.hasClass('uk-active')) {
+					                            	$(this[0]).removeClass('clicked');
+					                            }
+					                            else {
+					                            	$(this[0]).addClass('clicked');
+					                            }
+					                            // $(this[0]).addClass('clicked');
+					                            map_item.click();
+					                        }
+					                    }, data.regions);
+					                });
+					            });
+					        };
+					    </script>
+
+					<div id="map">
+						
+					</div>
+				</div>
+				<div class="uk-width-medium-2-5">
+					<div class="map-list uk-accordion" data-uk-accordion>
+						<div class="map-item-title uk-accordion-title" data-region="25">
+							<div class="map-title-number">1</div>
+							<div class="map-title-title">Головной офис Нижний Новгород</div>
+						</div>
+				    <div class="map-item uk-accordion-content" >
+							<div class="map-manager">
+								<div class="map-manager-photo"><img src="images/map-manager-photo.jpg" alt=""></div>
+								<div class="map-manager-content">
+									<div class="map-manager-name">Milutin Filipović</div>
+									<div class="map-manager-position">Sales Representatives for Projects</div>
+									<div class="map-manager-email">milutin.filipovic@pestan.net</div>
+									<div class="map-manager-phone">00381628840129</div>
+									<div class="map-manager-desc">Serbian</div>
+								</div>
+							</div>
+				    </div>
+						<div class="map-item-title uk-accordion-title">
+							<div class="map-title-number">1</div>
+							<div class="map-title-title">Головной офис Нижний Новгород</div>
+						</div>
+				    <div class="map-item uk-accordion-content">
+							<div class="map-manager">
+								<div class="map-manager-photo"><img src="images/map-manager-photo.jpg" alt=""></div>
+								<div class="map-manager-content">
+									<div class="map-manager-name">Milutin Filipović</div>
+									<div class="map-manager-position">Sales Representatives for Projects</div>
+									<div class="map-manager-email">milutin.filipovic@pestan.net</div>
+									<div class="map-manager-phone">00381628840129</div>
+									<div class="map-manager-desc">Serbian</div>
+								</div>
+							</div>
+				    </div>
+						<div class="map-item-title uk-accordion-title">
+							<div class="map-title-number">1</div>
+							<div class="map-title-title">Головной офис Нижний Новгород</div>
+						</div>
+				    <div class="map-item uk-accordion-content">
+							<div class="map-manager">
+								<div class="map-manager-photo"><img src="images/map-manager-photo.jpg" alt=""></div>
+								<div class="map-manager-content">
+									<div class="map-manager-name">Milutin Filipović</div>
+									<div class="map-manager-position">Sales Representatives for Projects</div>
+									<div class="map-manager-email">milutin.filipovic@pestan.net</div>
+									<div class="map-manager-phone">00381628840129</div>
+									<div class="map-manager-desc">Serbian</div>
+								</div>
+							</div>
+				    </div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<div class="container-1160 uk-container uk-margin-large-bottom">
