@@ -35,8 +35,26 @@
 						<div class="slideshow_solutions-item">
 							<div class="slideshow_solutions-item-subtitle">Технические решения</div>
 							<div class="slideshow_solutions-item-content">
-								<div class="slideshow_solutions-item-title"><a href="">Ливневая канализация</a></div>
+								<div class="slideshow_solutions-item-title"><a href="">Бивневая экспроприация помещений</a></div>
 								<div class="slideshow_solutions-item-text">Ливневая канализация состоит из различных труб, сифонов, заглушек и т.д. Эти элементы включены в ее схему и при установке учитываются в строгом порядке.</div>
+								<div class="slideshow_solutions-item-button"><a href="tekh-resheniya.php" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
+							</div>
+
+						</div>
+					</div>	
+				</div>
+			</li>
+			<li>
+				<div class="slideshow_solutions-bg">
+					<img src="images/bg-main.jpg" alt="">
+				</div>
+				<div class="uk-container container-1304 slideshow_solutions-content">
+					<div class="panel panel_orange panel_slideshow">
+						<div class="slideshow_solutions-item">
+							<div class="slideshow_solutions-item-subtitle">Технические решения</div>
+							<div class="slideshow_solutions-item-content">
+								<div class="slideshow_solutions-item-title"><a href="">Туча фзнамзнон</a></div>
+								<div class="slideshow_solutions-item-text">Ливневая канализация состоит.</div>
 								<div class="slideshow_solutions-item-button"><a href="tekh-resheniya.php" class="uk-button button_slideshow button_chevron">Подробнее</a></div>
 							</div>
 

@@ -8,7 +8,7 @@
                 воды.</p>
         </div>
 
-        <div class="uk-container container-1160 uk-margin-large-bottom uk-position-relative" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
+        <div class="block-reshenie uk-container container-1160 uk-margin-large-bottom uk-position-relative" data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">
 
             <ul class="uk-tab uk-tab-grid uk-tab__obsadnyye" data-uk-switcher="{connect:'#obsadnyye'}">
                 <li class="uk-width-1-2 uk-active"><a href="">Бытовая скважина</a></li>

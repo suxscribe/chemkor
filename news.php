@@ -33,7 +33,7 @@
             <div id="contacts" class="uk-switcher">
 
                 <div class="panel panel_news">
-                    <div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">
+                    <div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin >
 
                         <div>
                             <div class="news-item news-item_teaser">
