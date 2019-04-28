@@ -117,7 +117,7 @@
 	</div>
 
 	<div class="uk-container container-1160 uk-margin-large-bottom" >
-		<div class="block-title uk-h3"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}">Каталог продукции <a href="katalog-produktsii.php" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a></div>
+		<div class="block-title uk-h3"  >Каталог продукции <a href="katalog-produktsii.php" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a></div> <!-- data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:500}" -->
 
 
 		<div class="slideset slideset_catalog slideset-count" data-uk-slideset="{default:2, small:2, medium:2, large:3}"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom',delay:750}">
@@ -445,7 +445,7 @@
 			Свежие новости <a href="katalog-produktsii.php" class="uk-button button_chevron uk-margin-left uk-hidden-small">В каталог</a>
 		</div>
 		<div class="panel panel_news" >
-			<div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin data-uk-scrollspy="{cls:'uk-animation-slide-bottom uk-invisible', target:'> div', delay:250}">
+			<div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2"  data-uk-scrollspy="{cls:'uk-animation-slide-bottom uk-invisible', target:'> div', delay:250}" >
 				<div class="uk-invisible">
 					<div class="news-item news-item_teaser">
 						<div class="news-date">23 января</div>

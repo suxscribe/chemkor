@@ -2378,6 +2378,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.panel_production {
 		padding: 40px 30px;
 	}
+
+	.panel_news > .uk-grid > div {
+		margin-bottom: 20px;
+	}
 }
 @media (max-width: 479px) {
 	.header-top-phone-phone {
@@ -2509,11 +2513,12 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .obsadnyye-add-content {
 	transition: all 0.2s ease;
 }
-.obsadnyye-add-content.uk-hidden{
+.obsadnyye-add-content.uk-hidden{ /* smooth popup */
 	display: flex !important;
 	visibility: visible !important;
 	opacity: 0;
 	z-index: 0;
+	pointer-events: none;
 }
 
 @media (max-width: 959px) {

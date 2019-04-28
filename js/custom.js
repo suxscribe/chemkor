@@ -77,11 +77,23 @@ jQuery(document).ready(function() {
 		});
 
 
-	$('.slideset .uk-slideset-nav > li > a').each(function(index, el) {
-		$(this).html(index+1);		
-	});
-	$('.slideset-nav-overall').html($('.slideset .uk-slideset-nav > li > a').length);
+	// slideset nav
+	slidesetNav = function() {
+		$('.slideset .uk-slideset-nav > li > a').each(function(index, el) {
+			$(this).html(index+1);		
+		});
+		$('.slideset-nav-overall').html($('.slideset .uk-slideset-nav > li > a').length);
+	}
 
+	slidesetNav();
+	//recount nav
+	window.onresize = function() {
+		setTimeout(function(){
+			//window.dispatchEvent(new Event('resize'));
+			slidesetNav();
+		},1000);
+		
+	}
 
 	$('#form-modal-search input[type=text], .form-search input[type=text]').each(function(index, el) {
 		if ($(this).val() == '') {
@@ -155,6 +167,24 @@ jQuery(document).ready(function() {
 			
 		}
 	})
+
+	//close resheniya toggles
+	$(document).mouseup(function(e) 
+	{
+	    var container = $(".obsadnyye-add-content:not(uk-hidden)");
+
+	    // if the target of the click isn't the container nor a descendant of the container
+	    if (!container.is(e.target) && container.has(e.target).length === 0) 
+	    {
+	       container.addClass('uk-hidden');
+	    }
+	});
+
+	setTimeout(function(){
+		//window.dispatchEvent(new Event('resize'));
+
+	},2000); // trigger resize event after page loads to make everything great
+
 
 
 });
