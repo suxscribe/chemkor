@@ -1883,6 +1883,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	font-weight: 300;
 	font-family: RussoOne;
 	color: rgba(255,255,255,0.4);
+	outline:none;
 }
 .modal-search-box input[type="submit"] {
 	background: none;
@@ -1931,6 +1932,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	font-size: 23px;
 	transform: rotate(45deg);
 	color: var(--orange);
+	position: absolute;
+	right: 0px;
+	top: 16px;
 }
 
 .form-modal-search-reset.empty {
