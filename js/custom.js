@@ -1,7 +1,48 @@
 
 jQuery(document).ready(function() {
-
-
+	
+	fetch('js/with-regions.json').then(function(response) {
+		response.json().then(function(data) {
+			new RussianMap({
+				viewPort: data.viewPort,
+				mapId: 'map',
+				width: 800,
+				height: 520,
+				// дефолтовые атрибуты для контуров регионов
+				defaultAttr: {
+						fill: '#d8d8d8', // цвет которым закрашивать
+					stroke: '#ffffff', // цвет границы
+					'stroke-width': 1, // ширина границы
+					'stroke-linejoin': 'round' // скруглять углы
+				},
+				/*mouseMoveAttr: {
+					fill: '#25669e'
+				},*/
+				onMouseMove: function(event) {
+					console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
+					$('.map-item-title[data-region="' + this.region.ident + '"').addClass('active');
+				},
+				onMouseOut: function(event) {
+					console.log('out on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
+					$('.map-item-title[data-region="' + this.region.ident + '"').removeClass('active');
+				},
+				onMouseClick: function(event) {
+					console.log('clicked on ' + this.region.name);
+					// console.log(this);
+					$('#map path').removeClass('clicked');
+					var map_item = $('.map-item-title[data-region="' + this.region.ident + '"');
+					if (map_item.hasClass('uk-active')) {
+						$(this[0]).removeClass('clicked');
+					}
+					else {
+						$(this[0]).addClass('clicked');
+					}
+					map_item.click();
+				}
+			}, data.regions);
+		});
+	});
+	
 	//сдвиг лейбла при фокусе на форме
 	$('.input_field').each(function(){
 	    var $this = $(this);
