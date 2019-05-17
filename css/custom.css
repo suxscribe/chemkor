@@ -1553,7 +1553,7 @@ h4, .uk-h4 {
 #map path.clicked {
 	fill: #666;
 }
-#map path:hover {
+#map path:hover, #map path.hover {
 	fill: #999;
 }
 

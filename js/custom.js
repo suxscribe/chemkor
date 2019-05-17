@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
 				height: 520,
 				// дефолтовые атрибуты для контуров регионов
 				defaultAttr: {
-						fill: '#d8d8d8', // цвет которым закрашивать
+					fill: '#d8d8d8', // цвет которым закрашивать
 					stroke: '#ffffff', // цвет границы
 					'stroke-width': 1, // ширина границы
 					'stroke-linejoin': 'round' // скруглять углы
@@ -19,16 +19,16 @@ jQuery(document).ready(function() {
 					fill: '#25669e'
 				},*/
 				onMouseMove: function(event) {
-					console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
+					//console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
 					$('.map-item-title[data-region="' + this.region.ident + '"').addClass('active');
 				},
 				onMouseOut: function(event) {
-					console.log('out on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
+					//console.log('out on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
 					$('.map-item-title[data-region="' + this.region.ident + '"').removeClass('active');
 				},
 				onMouseClick: function(event) {
-					console.log('clicked on ' + this.region.name);
-					// console.log(this);
+					//console.log('clicked on ' + this.region.name);
+					console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
 					$('#map path').removeClass('clicked');
 					var map_item = $('.map-item-title[data-region="' + this.region.ident + '"');
 					if (map_item.hasClass('uk-active')) {
@@ -37,10 +37,27 @@ jQuery(document).ready(function() {
 					else {
 						$(this[0]).addClass('clicked');
 					}
+					
 					map_item.click();
 				}
+				
 			}, data.regions);
+			
+			$.each(data.regions, function(e,v){
+				$('path:eq('+e+')')
+					.attr('ident',v['ident']);
+			});
+			
 		});
+	});
+	
+	$('.map-item-title').click(function(){
+		$('path').removeClass();
+		$('path[ident="'+
+		  
+		  		$(this).attr('data-region')+
+		  			
+		  			'"]').addClass('hover');
 	});
 	
 	//сдвиг лейбла при фокусе на форме

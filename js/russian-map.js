@@ -138,7 +138,7 @@ var RussianMap = function(options, regions) {
                 path.mouseover(onMouseMove);
                 path.mouseout(onMouseOut);
                 path.click(onMouseClick);
-                region.paths[p] = path;
+				region.paths[p] = path;
             }
         }
         // прорисовка полигнов: также через тег path, только конечная точка соединяется с начальной
