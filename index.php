@@ -239,7 +239,7 @@
 							</div>
 				    </div>
 						<div class="map-item-title uk-accordion-title" data-region="25">
-							<div class="map-title-number">1</div>
+							<div class="map-title-number">2</div>
 							<div class="map-title-title">Головной офис Пермский край</div>
 						</div>
 				    <div class="map-item uk-accordion-content">
@@ -255,7 +255,7 @@
 							</div>
 				    </div>
 						<div class="map-item-title uk-accordion-title" data-region="75">
-							<div class="map-title-number">1</div>
+							<div class="map-title-number">3</div>
 							<div class="map-title-title">Головной офис Забйкальский край</div>
 						</div>
 				    <div class="map-item uk-accordion-content">
@@ -271,7 +271,7 @@
 							</div>
 				    </div>
 						<div class="map-item-title uk-accordion-title" data-region="28">
-							<div class="map-title-number">1</div>
+							<div class="map-title-number">4</div>
 							<div class="map-title-title">Головной офис Нижний Амурская область</div>
 						</div>
 				    <div class="map-item uk-accordion-content">

@@ -43,9 +43,16 @@ jQuery(document).ready(function() {
 				
 			}, data.regions);
 			
-			$.each(data.regions, function(e,v){
-				$('path:eq('+e+')')
-					.attr('ident',v['ident']);
+			
+			$('path').each(function(i,el){
+				
+				$(el).attr('ident',
+						   
+							   $(el)[0]
+									["raphael"]
+									["region"]
+									["ident"]
+							  );
 			});
 			
 		});
