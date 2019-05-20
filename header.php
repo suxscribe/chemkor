@@ -45,8 +45,9 @@
 	<script src="js/jquery.inputmask.js"></script>
 	<script src="js/jquery.nicescroll.min.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/raphael-min.js"></script>
-	<script src="js/russian-map.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<!-- <script src="js/raphael-min.js"></script> -->
+	<!-- <script src="js/russian-map.js"></script> -->
 
 	<script src="js/custom.js"></script>
 	<script src="js/my-script.js"></script>

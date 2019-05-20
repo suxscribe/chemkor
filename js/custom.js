@@ -1,64 +1,9 @@
 
 jQuery(document).ready(function() {
 	
-	fetch('js/with-regions.json').then(function(response) {
-		response.json().then(function(data) {
-			new RussianMap({
-				viewPort: data.viewPort,
-				mapId: 'map',
-				width: 800,
-				height: 520,
-				// дефолтовые атрибуты для контуров регионов
-				defaultAttr: {
-					fill: '#d8d8d8', // цвет которым закрашивать
-					stroke: '#ffffff', // цвет границы
-					'stroke-width': 1, // ширина границы
-					'stroke-linejoin': 'round' // скруглять углы
-				},
-				/*mouseMoveAttr: {
-					fill: '#25669e'
-				},*/
-				onMouseMove: function(event) {
-					//console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
-					$('.map-item-title[data-region="' + this.region.ident + '"').addClass('active');
-				},
-				onMouseOut: function(event) {
-					//console.log('out on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
-					$('.map-item-title[data-region="' + this.region.ident + '"').removeClass('active');
-				},
-				onMouseClick: function(event) {
-					//console.log('clicked on ' + this.region.name);
-					console.log('mouse on ' + this.region.name + ' (ident: ' + this.region.ident + ')');
-					$('#map path').removeClass('clicked');
-					var map_item = $('.map-item-title[data-region="' + this.region.ident + '"');
-					if (map_item.hasClass('uk-active')) {
-						$(this[0]).removeClass('clicked');
-					}
-					else {
-						$(this[0]).addClass('clicked');
-					}
-					
-					map_item.click();
-				}
-				
-			}, data.regions);
-			
-			$.each(data.regions, function(e,v){
-				$('path:eq('+e+')')
-					.attr('ident',v['ident']);
-			});
-			
-		});
-	});
 	
-	$('.map-item-title').click(function(){
-		$('path').removeClass();
-		$('path[ident="'+
-		  
-		  		$(this).attr('data-region')+
-		  			
-		  			'"]').addClass('hover');
-	});
+	
+
 	
 	//сдвиг лейбла при фокусе на форме
 	$('.input_field').each(function(){
@@ -220,11 +165,7 @@ jQuery(document).ready(function() {
 // https://tech.yandex.ru/maps/jsbox/2.1/regions_pattern
 
 
-	$('.map-item').on('click', function () {
-		if ($(this).hasClass('uk-active')) {
-			
-		}
-	})
+
 
 	//close resheniya toggles
 	$(document).mouseup(function(e) 
@@ -244,5 +185,84 @@ jQuery(document).ready(function() {
 	},2000); // trigger resize event after page loads to make everything great
 
 
+
+	/*$('.map-item-title').click(function(){
+		$('path').removeClass();
+		$('path[data-name="'+
+		  
+		  		$(this).attr('data-region')+
+		  			
+		  			'"]').addClass('click');
+	});*/
+
+	$('.map-item-title').on('mouseover', function () {
+		// body...
+		var region = $(this).data('region');
+		console.log(region);
+		$('.map-group path').removeClass('hover');
+		$('.map-group path[data-name='+ region +']').addClass('hover');
+	})
+
+	$('.map-group path').on('mouseover', function () {
+		var region = $(this).data('name');
+
+		$('.map-item-title').removeClass('hover');
+		$('.map-item-title[data-region='+ region +']').addClass('hover');
+
+	})
+
+	$('.map-item-title').on('click', function () {
+
+		$(this).closest('.map-wrap').find('path').removeClass('uk-active');
+
+		if ($(this).hasClass('uk-active')) {
+			$('.map-group path[data-name='+ $(this).data('region') +']').removeClass('uk-active');
+		}
+		else {
+			$('.map-group path[data-name='+ $(this).data('region') +']').addClass('uk-active');
+
+		}
+	})
+
+	$('.map-group path').on('click', function () {
+
+		var region = $(this).data('name');
+		
+		//$('.map-group path').removeClass('uk-active');
+
+		if ($(this).hasClass('uk-active')) {
+			$('.map-item-title[data-region='+ region +']').click();
+			//$('.map-group path[data-name='+ $(this).data('region') +']').removeClass('uk-active');
+		}
+		else {
+			$('.map-item-title[data-region='+ region +']').click();
+			//$('.map-group path[data-name='+ $(this).data('region') +']').addClass('uk-active');
+
+		}
+
+		if (region == '02') {
+			$('.map-list').scrollTo('max',300);
+		}
+		else {
+			$('.map-list').scrollTo($('.map-item-title[data-region='+ region +']'),300,
+				{
+					offset: -130
+				});
+		}
+
+	})
+
+	$('.map-list').niceScroll();
+
+
+	//+TODO Hover on list item - region hovers
+	//+TODO hover on redion - list hover
+	//+TODO Click on list item - region highlights
+	//+TODO Click on list item - collapse - region remove hightlight
+	//+TODO click on region - list scrolls to item + hightlight + regions highlight
+	//TODO click on region - no collapse. only scroll.
+
+	// if first 5 elements - offset - 100.
+	//
 
 });
