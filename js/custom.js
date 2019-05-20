@@ -1,8 +1,6 @@
 
 jQuery(document).ready(function() {
 	
-	
-	
 
 	
 	//сдвиг лейбла при фокусе на форме

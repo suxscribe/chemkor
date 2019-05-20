@@ -784,15 +784,7 @@
 
 					    </li><!--uis end-->
 					</ul>
-
-
-					<!-- <div id="map">
-						
-					</div> -->
-					
-
-				
-				
+							
 			
 		</div>
 	</div>
