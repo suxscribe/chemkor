@@ -419,6 +419,7 @@ h4, .uk-h4 {
 	font-family: "Proxima Nova";
 	text-transform: uppercase;
 	transition: all 0.2s ease;
+	letter-spacing: 0.4px;
 }
 .uk-button:hover, .uk-button:focus {
 	border-color: var(--text);
@@ -1329,6 +1330,9 @@ h4, .uk-h4 {
 	padding: 92px 36px;
 	background: #fff;
 }
+.certificate-item_bim {
+	padding-bottom: 48px;
+}
 .certificate-item::before {
 	content: "";
 	display: block;
@@ -1342,13 +1346,24 @@ h4, .uk-h4 {
 	font-weight: bold;
 	margin-bottom: 90px;
 }
+.certificate-item-title_bim {
+	margin-bottom: 40px;
+}
 .certificate-item-desc {
 	font-family: "Proxima Nova";
 	font-size: 15px;
 
 }
 
+.certificate-item-button {
+	margin-top: 40px;	
+}
+.certificate-item-button .uk-button {
+	width: 100%;
+	min-height: 48px;
+	line-height: 48px;
 
+}
 .certificate-list {
 	
 	flex-wrap: nowrap;
