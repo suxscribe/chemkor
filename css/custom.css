@@ -1718,7 +1718,7 @@ h4, .uk-h4 {
 }
 
 
-.map-group path:hover,
+.map-group path[data-title]:hover,
 .map-group path.hover {
 	fill: #b5b5b5;
 }
