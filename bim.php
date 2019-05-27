@@ -25,6 +25,45 @@
 						<div class="certificate-item-button"><a href="https://bimlib.pro/manufacturer/aohemkor/3122" class="uk-button uk-button-large" target="_blank">Перейти на bimlib.pro</a></div>
 					</div>
 				</div>
+
+				<div>
+		      <div class="certificate-item certificate-item_bim">
+		        <div class="certificate-item-title certificate-item-title_bim">Таблицы для гидравлического расчета самотечных трубопроводов</div>
+		        <div class="certificate-item-desc"></div>
+		        <div class="certificate-item-button">
+		          <a href="#" class="uk-button uk-button-large" target="_blank">Скачать</a>
+		        </div>
+		      </div>
+		    </div>
+		    <div>
+		      <div class="certificate-item certificate-item_bim">
+		        <div class="certificate-item-title certificate-item-title_bim">Опросный лист для прочностного расчета</div>
+		        <div class="certificate-item-desc"></div>
+		        <div class="certificate-item-button">
+		          <a href="#" class="uk-button uk-button-large" target="_blank">Скачать</a>
+		        </div>
+		      </div>
+		    </div>
+		    <div>
+		      <div class="certificate-item certificate-item_bim">
+		        <div class="certificate-item-title certificate-item-title_bim">Методические рекомендации по проектированию и монтажу наружных водопроводных и напорных канализационных сетей</div>
+		        <div class="certificate-item-desc"></div>
+		        <div class="certificate-item-button">
+		          <a href="#" class="uk-button uk-button-large" target="_blank">Скачать</a>
+		        </div>
+		      </div>
+		    </div>
+		    <div>
+		      <div class="certificate-item certificate-item_bim">
+		        <div class="certificate-item-title certificate-item-title_bim">Таблица химической стойкости труб ПВХ</div>
+		        <div class="certificate-item-desc"></div>
+		        <div class="certificate-item-button">
+		          <a href="#" class="uk-button uk-button-large" target="_blank">Скачать</a>
+		        </div>
+		      </div>
+		    </div>
+
+				    
 			</div>
 		</div>
 	</main>
