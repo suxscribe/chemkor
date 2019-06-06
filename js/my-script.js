@@ -187,6 +187,7 @@
       var myMap = new ymaps.Map('frontpage-map', {
           center: [56.315411, 44.027115],
           zoom: 13,
+          controls: []
         }),
         collection = new ymaps.GeoObjectCollection(),
         bounds = myMap.getBounds()
@@ -201,6 +202,7 @@
       var myMap = new ymaps.Map('frontpage-map2', {
           center: [56.240568, 43.523753],
           zoom: 13,
+          controls: []
         }),
         collection = new ymaps.GeoObjectCollection(),
         bounds = myMap.getBounds()
@@ -215,6 +217,7 @@
       var myMap = new ymaps.Map('frontpage-map3', {
           center: [55.651374, 37.522108],
           zoom: 13,
+          controls: []
         }),
         collection = new ymaps.GeoObjectCollection(),
         bounds = myMap.getBounds()
@@ -229,6 +232,7 @@
       var myMap = new ymaps.Map('frontpage-map4', {
           center: [56.240568, 43.523753],
           zoom: 10,
+          controls: []
         }),
         collection = new ymaps.GeoObjectCollection(),
         bounds = myMap.getBounds()
@@ -243,6 +247,7 @@
       var myMap = new ymaps.Map('frontpage-map5', {
           center: [55.452436, 37.292194],
           zoom: 10,
+          controls: []
         }),
         collection = new ymaps.GeoObjectCollection(),
         bounds = myMap.getBounds()

@@ -39,13 +39,7 @@
                                 <div class="part-1-content-addres">
                                     <p>Адрес</p>
                                     <p>603024, г.Н.Новгород, ул.Генкиной, д.61</p>
-                                    <a href="#id-map-nNovgorod" data-uk-modal>Схема проезда</a>
-                                    <div id="id-map-nNovgorod" class="uk-modal">
-                                        <div class="uk-modal-dialog">
-                                            <a class="uk-modal-close uk-close uk-close_product"></a>
-                                            <iframe src="https://yandex.ru/map-widget/v1/-/CSfLrcs" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
-                                        </div>
-                                    </div><!-- #id-map-* -->
+                                    
                                 </div>
 
                             </div><!-- .part-1-content -->
@@ -54,6 +48,7 @@
                             <div class="contacts-map">
                                 <div class="contacts-map-holder">
                                     <div id="frontpage-map" class="ifreme-contacts-map"></div>
+                                    
                                 </div>
                             </div>
                         </div><!-- .part-2 -->
@@ -74,13 +69,7 @@
                                 <div class="part-1-content-addres">
                                     <p>Адрес</p>
                                     <p>606000, Нижегородская обл. г.Дзержинск, ул. 1 Мая, д. 1</p>
-                                    <a href="#id-map-dzerzhinsk" data-uk-modal>Схема проезда</a>
-                                    <div id="id-map-dzerzhinsk" class="uk-modal">
-                                        <div class="uk-modal-dialog">
-                                            <a class="uk-modal-close uk-close uk-close_product"></a>
-                                            <iframe src="https://yandex.ru/map-widget/v1/-/CSrCUlQ" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
-                                        </div>
-                                    </div><!-- #id-map-* -->
+                                    
                                 </div>
 
                             </div><!-- .part-1-content -->
@@ -111,13 +100,7 @@
                                 <div class="part-1-content-addres">
                                     <p>Адрес</p>
                                     <p>603024, г. Москва, ул. Бутлерова, дом 4, корп. 3</p>
-                                    <a href="#id-map-moskva" data-uk-modal>Схема проезда</a>
-                                    <div id="id-map-moskva" class="uk-modal">
-                                        <div class="uk-modal-dialog">
-                                            <a class="uk-modal-close uk-close uk-close_product"></a>
-                                            <iframe src="https://yandex.ru/map-widget/v1/-/CBFqfGxpSB" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
-                                        </div>
-                                    </div><!-- #id-map-* -->
+                                    
                                 </div>
 
                             </div><!-- .part-1-content -->
