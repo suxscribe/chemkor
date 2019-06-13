@@ -54,7 +54,7 @@
 </head>
 <body>
 	
-	<header class="header-top" data-uk-sticky="{media: 960}">
+	<header class="header-top" data-uk-sticky> <!--="{media: 960}" -->
 		<div class="header-top-logo">
 			<div class="logo-sign">
 				<a href="./"><img src="images/logo.svg" alt=""><!-- <span>Производитель труб из ПВХ</span> --></a>
@@ -111,7 +111,7 @@
 			<li><a href="contacts.php">Контакты</a></li>
 		</ul>
 		<div class="header-top-phone">
-			<div class="header-top-phone-sign uk-flex-item-none" data-uk-dropdown>
+			<div class="header-top-phone-sign uk-flex-item-none" data-uk-dropdown="{pos:'bottom-right'}">
 				<div class="icon-info"></div>
 				<div class="header-top-phone-dropdown uk-dropdown uk-dropdown-width-4">
 					<div class="uk-grid uk-grid-width-large-1-3 uk-dropdown-grid" data-uk-grid-margin>

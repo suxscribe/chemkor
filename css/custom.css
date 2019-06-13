@@ -501,6 +501,7 @@ h4, .uk-h4 {
 	margin-right: 20px;
 	font-size: 18px;
 	color: var(--text);
+	cursor: pointer;
 }
 .header-top-phone-sign:hover, .header-top-phone-sign:focus {
 	color: var(--orange2);
@@ -2375,6 +2376,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	.block-fullwidth-heading {
 		font-size: 40px;
 		line-height: 45px;
+		word-break: break-all;
 	}
 	.block_production-pipes {
 		padding: 0;
@@ -2428,13 +2430,30 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 		width: 100%;
 	}
 
+	.header-top {
+		min-height: 50px;
+	}
 	.header-top-phone-sign {
-		/*margin-right: 0;*/
+		font-size: 24px;
+		margin-right: 20px;
+	}
+	.logo-sign img {
+		width: 100px;
+	}
+
+	.header-top-phone-dropdown{
+		margin-top: 13px;
 	}
 	.header-top-phone-dropdown::before {
-		right: 30px;
+		right: 66px;
 		left: auto;
 	}
+
+	.uk-dropdown {
+		width: 100vw;
+		transform: translateX(40px);
+	}
+
 	.panel_advantage-content {
 		padding: 0;
 	}
@@ -2504,11 +2523,15 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 	}
 }
 @media (max-width: 479px) {
+
 	.header-top-phone-phone {
 		display: none;
 	}
 	.header-top-search {
 		display: none;
+	}
+	.z-navbar-toggle {
+		transform: translateY(2px);
 	}
 }
 
