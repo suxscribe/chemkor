@@ -247,10 +247,15 @@ jQuery(document).ready(function() {
 					offset: -130
 				});
 		}
+	});
 
-	})
+	$('.map-list').niceScroll({
 
-	$('.map-list').niceScroll();
+	  autohidemode: false,
+	  cursorcolor:"rgba(20,20,20,0.2)",
+	  cursorborder:"none",
+	  // horizrailenabled: false
+	});
 
 
 	//+TODO Hover on list item - region hovers

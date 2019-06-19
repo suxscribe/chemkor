@@ -105,7 +105,7 @@
         return page
       }
 
-      $('.nicescroll-rails.nicescroll-rails-vr').remove()
+      // $('.nicescroll-rails.nicescroll-rails-vr').remove()
 
     })//nicescroll
 
