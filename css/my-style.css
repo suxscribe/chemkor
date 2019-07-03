@@ -995,8 +995,12 @@ div.menu-modal-menu a{
 	background-color: #fff;
 	box-sizing: border-box;
 }
-.request-content{
+.request-content {
 	position: relative;
+	border: 1px solid #D5D5D5;
+	margin-bottom: 25px;
+	padding-top: 17px;
+	padding-bottom: 7px;
 }
 .request-title{
 	font-family: 'RussoOne', sans-serif;
@@ -1005,15 +1009,16 @@ div.menu-modal-menu a{
 	color: var(--orange);
 	margin-bottom: 30px;
 }
-[class^="request-input-"]{
+[class^="request-input-"] {
 	width: 100%;
-	height: 56px;
+	height: 30px;
 	color: var(--black);
 	font-size: 16px;
 	padding-left: 24px;
-	margin-bottom: 15px;
-	border: 1px solid #D5D5D5;
+	/* margin-bottom: 15px; */
+	/* border: 1px solid #D5D5D5; */
 	box-sizing: border-box;
+	border: none;
 }
 
 [class^="request-input-"]:hover{
@@ -1023,7 +1028,7 @@ div.menu-modal-menu a{
 	position: absolute;
 	top: 17px;
 	left: 25px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: normal;
 	line-height: 21px;
 	color: #828284;
@@ -1031,12 +1036,12 @@ div.menu-modal-menu a{
 	transition: top 200ms linear, font-size 200ms linear;
 }
 [class^="request-input-"]:focus + label{
-	top: 0;
+	top: 4px;
 	font-size: 11px;
 	line-height: 14px;
 }
 .input-active + label{
-	top: 0;
+	top: 4px;
 	font-size: 11px;
 	line-height: 14px;
 }
@@ -1052,8 +1057,9 @@ div.menu-modal-menu a{
 }
 .request-input-txt{
 	height: 96px;
-	padding-top: 25px;
+	padding-top: 5px;
 	margin-bottom: 25px;
+	font-family: "Open Sans", sans-serif;
 }
 .request-submit{
 	font-family: "Proxima Nova", sans-serif;

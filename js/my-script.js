@@ -121,8 +121,8 @@
       }
     })//animation labrl
 
-    $('.request-content > textarea').on('textarea', function () {
-      var $this = $(this)
+    $('.request-content > textarea').on('input', function () {
+      var $this = $(this);
       if ($this.val() == '') {
         $this.removeClass('input-active');
         //console.log('pipka-false-textarea');

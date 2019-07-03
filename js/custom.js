@@ -258,6 +258,19 @@ jQuery(document).ready(function() {
 	});
 
 
+	/*$('.request-content input').each(function() {
+		if ($(this).value() !== "") {
+			$(this).addClass('input-active');
+		}
+	});*/
+
+	document.querySelectorAll('.request-content input, .request-content textarea').forEach((item) => {
+		if (item.value !== "") {
+			item.classList.add('input-active');
+		}
+		// console.log('111' + item.value);
+	});
+
 	//+TODO Hover on list item - region hovers
 	//+TODO hover on redion - list hover
 	//+TODO Click on list item - region highlights
